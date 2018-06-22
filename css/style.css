@@ -1,7 +1,8 @@
 @font-face{font-family: Roboto-Bold;src: url("../fonts/roboto/Roboto-Bold.ttf");}
 @font-face{font-family: Roboto-Regular;src: url("../fonts/roboto/Roboto-Regular.ttf");}
 @font-face{font-family: Caviar-Dreams;src: url("../fonts/caviar/caviardreams-webfont.ttf");}
-@font-face{font-family: Caviar-Dreams-Bold;src: url("../fonts/caviar/CaviarDreams_Bold.ttf");s}
+@font-face{font-family: Caviar-Dreams-Bold;src: url("../fonts/caviar/CaviarDreams_Bold.ttf");}
+a{	font-family: Caviar-Dreams-Bold;}
 .btn-danger {
   color: #fff;
   background-color: #E60000!important;
@@ -36,6 +37,7 @@ header.header h1{
 	justify-content: center;
 	flex-flow: column wrap;
 	padding: 3em 1em;
+	overflow: hidden;
 }
 .callToAction h2{
 	font-family: Caviar-Dreams-Bold;
@@ -49,11 +51,12 @@ header.header h1{
 .callToAction div{
 	text-align: center;
 	margin: 4em auto 1em auto;
-}.callToAction a{
+}
+.callToAction a.img-after{
 	overflow: visible;
 	margin: 3em 1em 1em 1em;
 }
-.callToAction div a::after{
+a.img-after::after{
 	content:"";
 	position: absolute;
 	z-index: 2;
@@ -62,18 +65,19 @@ header.header h1{
 	background-position: center;
 	background-size: cover;
 }
-.callToAction div a:first-child::after{
+a.img-after:first-child::after{
 	top: -114px;
 	left: 110px;
 	background-image: url('../images/Informes.svg');
-}.callToAction div a:last-child::after{
+}
+a.img-after:last-child::after{
 	top: -95px;
 	right: -80px;
 	background-image: url('../images/Datos.svg');
 }
 /* Fin de Call to Action */
 /* Section de 3 parrafos */
-.p-container {
+.p-container{
 	margin: 0 auto!important;
 }
 .parrafos{
@@ -84,5 +88,9 @@ header.header h1{
 	text-align: left;
 	padding-left: 1em;
 	border-left: 3px solid #fff;
+}
+a.btn-only{
+	margin: 2em auto;
+	width: 150px!important;
 }
 /* Cierre Section de 3 parrafos */

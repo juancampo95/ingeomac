@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Requerido para adaptación movil -->
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
 	<title>Ingeomac Ltda</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/mdb.css">
@@ -20,8 +23,8 @@
 			<h2>Servicios Web</h2>
 			<p>Aquí en Ingeomac LTDA siempre pensamos en nuestros clientes y como mejorar la atención y los servicios ofrecidos. Es por esta razón que renovamos nuestro sitio web y aprovechamos la nuevas tecnologías para hacerla dinámica y funcional. Brindando dos la consulta de informes de manera online y la actualización de los datos personales para facilitar el contácto.</p>
 			<div>
-				<a class="btn btn-danger btn-lg" href="#">Consultar Informes</a>
-				<a class="btn btn-grey btn-lg" href="#">Actualizar Datos</a>
+				<a class="btn btn-danger btn-lg img-after" href="#">Consultar Informes</a>
+				<a class="btn btn-grey btn-lg img-after" href="#">Actualizar Datos</a>
 			</div>
 		</article>
 	</section>
@@ -39,6 +42,107 @@
 					<p>Trabajamos con concreto, pavimento, mampostería, entre otros.</p>
 				</div>
 			</div>
+			<a class="btn btn-white btn-lg btn-only" href="#">Ver más</a>
+		</article>
+	</section>
+	<section class="container-fluid">
+		<article class="container callToAction">
+			<h2>Algunos de nuestros servicios</h2>
+			<div class="row mb-5">
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/5.jpg" class="img-fluid" alt="">
+                            <div class="stripe dark">
+                                <a>
+                                    <p>Red trousers
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/8.jpg" class="img-fluid" alt="">
+                            <div class="stripe light">
+                                <a>
+                                    <p>Sweatshirt
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/9.jpg" class="img-fluid" alt="">
+                            <div class="stripe dark">
+                                <a>
+                                    <p>Accessories
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Grid column-->
+
+                <!--Fourth column-->
+                <div class="col-lg-3 col-md-6 mb-4">
+
+                    <!--Collection card-->
+                    <div class="card collection-card z-depth-1-half">
+                        <!--Card image-->
+                        <div class="view zoom">
+                            <img src="https://mdbootstrap.com/img/Photos/Horizontal/E-commerce/Vertical/7.jpg" class="img-fluid" alt="">
+                            <div class="stripe light">
+                                <a>
+                                    <p>Sweatshirt
+                                        <i class="fa fa-angle-right"></i>
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                        <!--Card image-->
+                    </div>
+                    <!--Collection card-->
+
+                </div>
+                <!--Fourth column-->
+
+            </div>
 		</article>
 	</section>
 </body>
