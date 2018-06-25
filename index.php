@@ -198,8 +198,8 @@
 					<div class="swiper-slide slide-cliente">
 						<img src="images/clientes/SKEMA.png" alt="Logo alpes">
 					</div>
-
 		    </div>
+	 </section>
 		    <!-- Add Pagination -->
 		    <div class="swiper-pagination"></div>
 		    <!-- Add Arrows -->
