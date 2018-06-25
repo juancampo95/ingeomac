@@ -150,14 +150,55 @@
 
 	<section class="container-fluid section-rojo">
 		<article class="container  callToAction">
-				<h2>Algunos clientes</h2>
+				<h2>Nuestros Clientes</h2>
 				<div class="swiper-container">
 		    <div class="swiper-wrapper">
 		      <div class="swiper-slide slide-cliente">
 		      	<img src="images/clientes/ALPES.png" alt="Logo alpes">
 		      </div>
-		      <div class="swiper-slide slide-cliente">Slide 2</div>
-		      <div class="swiper-slide slide-cliente">Slide 3</div>
+		      <div class="swiper-slide slide-cliente">
+						<img src="images/clientes/BARILOCHE.png" alt="Logo alpes">
+					</div>
+		      <div class="swiper-slide slide-cliente">
+						<img src="images/clientes/COMPARTIR.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/CONSTRUCTORAALFAGUARA.jpg" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/CONSTRUCTORABOLIVAR.jpg" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/CONSTRUCTORANORMANDIA.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/CONSTRUCTORAPREFABRICADOS.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/CONSTRUCTORASOLANILLAS.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/HABITEK.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/LATCO.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/MECON.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/MORENOTAFUR.jpg" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/PROCON.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/SAINC.png" alt="Logo alpes">
+					</div>
+					<div class="swiper-slide slide-cliente">
+						<img src="images/clientes/SKEMA.png" alt="Logo alpes">
+					</div>
+
 		    </div>
 		    <!-- Add Pagination -->
 		    <div class="swiper-pagination"></div>
