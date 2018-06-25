@@ -213,12 +213,46 @@
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1991.3527431121433!2d-76.52335613849583!3d3.421739562852225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a6c1007d3bbd%3A0x39365a968d1753d7!2sCl.+19+%2335-33%2C+Cali%2C+Valle+del+Cauca!5e0!3m2!1ses-419!2sco!4v1529944117981" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen></iframe>
 	</section>
 
-	<section class="container-fluid section-rojo">
-		<article class="container callToAction">
-
-		</article>
-
-	</section>
+	<footer class="container-fluid pie_d_page section-rojo">
+        <div class="row">
+            <div class="col-md-9 text-center footer-title">
+              <h3>Más de 1.000 personas ya usan prendas <b>ETNIA</b> para realizar su deporte favorito.</h3>
+            </div>
+            <div class="col-md-4 col-xs-12">
+              <ul>
+                  <li><a href="http://multiractiva.com/wp-etnia/">Inicio</a></li>
+                  <li><a href="#">Productos</a></li>
+                  <li><a href="http://multiractiva.com/wp-etnia/mujeres">Mujeres</a></li>
+                  <li><a href="http://multiractiva.com/wp-etnia/hombres">Hombres</a></li>
+                  <li><a href="http://multiractiva.com/wp-etnia/etnia/">Etnia</a></li>
+                  <li><a href="http://multiractiva.com/wp-etnia/contacto">Contácto</a></li>
+              </ul>
+             </div>
+            <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer">
+              <img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/logo_etnia_white.svg">
+            </div>
+            <div class="col-md-4 col-xs-12 d-flex flex-column footer_links2">
+                <ul>
+                    <li>Escribanos</li>
+                    <li><a href="#">Email@etnia.com</a></li>
+                    <li>WhatsApp</li>
+                    <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 311 630 3921</a></li>
+                </ul>
+            <div class="logos_redesfooter" >
+                        <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_facebook.svg"></a>
+                        <a href="https://www.instagram.com/etniasport/"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_instagram.svg"></a>
+                        <a href="https://api.whatsapp.com/send?phone=573116303921"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_whatsapp.svg"></a>
+                </div>
+            </div>
+            <div class="col-12 text-md-right text-xs-center mt-4 " style="font-size: 14px;">
+                <p>Todos los derechos reservados ®copyright 2018 ETNIA.
+                </p>
+                <hr>
+                <p>Desarrollo y Diseño web 2018 por el equipo TEAM muldimedial - Estudiantes Juan Camilo Campo, Johnatan Sanchez, Ruben Timote, Daniel pinedo, Andrew Rivera del sexto semestre de la jornada nocturna - Fundación Academia de Dibujo Profesional cali - Contacto: ceo@multiractiva.com </p>
+                <img width="200" src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/multir-blanco-02.svg" alt="">
+            </div>
+        </div>
+	</footer>
 
 </body>
 </html>
