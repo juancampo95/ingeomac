@@ -179,6 +179,10 @@ footer ul{
 .logo_etnia_footer{
     margin: 2em auto;
 }
+.logo_etnia_footer img{
+    height: 200px;
+    width: 200px;
+}
 .logos_redesfooter a,.logos_redesfooter a:hover, .logos_redesfooter li,.logos_redesfooter li:hover{
     padding:0!important;
     transition: all linear 0.1s;
