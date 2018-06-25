@@ -48,9 +48,12 @@ header.header h1{
 	font-size: 1.2em;
 	text-align: justify;
 }
-.callToAction div{
+.callToAction div.botones{
 	text-align: center;
 	margin: 4em auto 1em auto;
+}
+.callToAction div{
+	text-align: center;
 }
 .callToAction a.img-after{
 	overflow: visible;
@@ -94,3 +97,40 @@ a.btn-only{
 	width: 150px!important;
 }
 /* Cierre Section de 3 parrafos */
+
+/* SWIPER DE CLIENTES */
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    margin: 1em auto;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+  }
+  .slide-cliente{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .slide-cliente img{
+    width: 250px;
+  }
+  /* CIERRE SWIPER DE CLIENTES */

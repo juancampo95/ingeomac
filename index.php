@@ -3,13 +3,14 @@
 <head>
 	<!-- Requerido para adaptación movil -->
 	<meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Ingeomac Ltda</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/mdb.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
 	<nav></nav>
@@ -19,7 +20,7 @@
 	</header>
 
 	<section class="container-fluid">
-		<article class="container callToAction">
+		<article class="container callToAction botones">
 			<h2>Servicios Web</h2>
 			<p>Aquí en Ingeomac LTDA siempre pensamos en nuestros clientes y como mejorar la atención y los servicios ofrecidos. Es por esta razón que renovamos nuestro sitio web y aprovechamos la nuevas tecnologías para hacerla dinámica y funcional. Brindando dos la consulta de informes de manera online y la actualización de los datos personales para facilitar el contácto.</p>
 			<div>
@@ -29,22 +30,23 @@
 		</article>
 	</section>
 	<section class="container-fluid section-rojo">
-		<article class="container callToAction">
+		<article class="container callToAction ">
 			<h2>Servicios Web</h2>
 			<div class="row p-container">
-				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">			
+				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">
 					<p>Contamos con 15 años de experiencia en el mercado.</p>
 				</div>
-				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">			
+				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">
 					<p>Le permitimos conocer con exactitud la calidad de sus materiales.</p>
 				</div>
-				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">			
+				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">
 					<p>Trabajamos con concreto, pavimento, mampostería, entre otros.</p>
 				</div>
 			</div>
 			<a class="btn btn-white btn-lg btn-only" href="#">Ver más</a>
 		</article>
 	</section>
+
 	<section class="container-fluid">
 		<article class="container callToAction">
 			<h2>Algunos de nuestros servicios</h2>
@@ -145,8 +147,46 @@
             </div>
 		</article>
 	</section>
+
+	<section class="container-fluid section-rojo">
+		<article class="container  callToAction">
+				<h2>Algunos clientes</h2>
+				<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		      <div class="swiper-slide slide-cliente">
+		      	<img src="images/clientes/ALPES.png" alt="Logo alpes">
+		      </div>
+		      <div class="swiper-slide slide-cliente">Slide 2</div>
+		      <div class="swiper-slide slide-cliente">Slide 3</div>
+		    </div>
+		    <!-- Add Pagination -->
+		    <div class="swiper-pagination"></div>
+		    <!-- Add Arrows -->
+		    <div class="swiper-button-next"></div>
+		    <div class="swiper-button-prev"></div>
+	  	</div>
+		</article>
+	</section>
 </body>
 </html>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/mdb.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script>
+	var swiper = new Swiper('.swiper-container', {
+		slidesPerView: 3,
+		spaceBetween: 30,
+		slidesPerGroup: 3,
+		loop: true,
+		loopFillGroupWithBlank: true,
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+</script>
