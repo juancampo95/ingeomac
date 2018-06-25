@@ -140,6 +140,10 @@ a.btn-only{
 .callToAction iframe{
   margin-top: 1em;
 }
+.cards_container{
+  justify-content: center;
+}
+
 /* FOOTER */
 
 .pie_d_page{
