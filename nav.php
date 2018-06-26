@@ -31,24 +31,33 @@
 			<div id="myNav" class="overlayNav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<div class="overlay-content">
-					<a class="navbar-brand logo_pagina" href="#"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
-					<a href="#">Servicios Web</a>
-					<a href="#">Nosotros</a>
-					<a href="#">Servicios</a>
-					<a href="#">Contacto</a>
+					<a class="navbar-brand logo_menu" href="#"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
+					<div class="redes_menu">
+						<a target="_blank" href="https://www.facebook.com/ranchoylicoresla85/"><img src="images/rrss/facebookwhite.svg"></a>
+						<a target="_blank" href="https://www.instagram.com/licores85cali/"><img src="images/rrss/instagramwhite.svg"></a>
+						<a target="_blank" href="https://api.whatsapp.com/send?phone=573164050464"><img src="images/rrss/whatsappwhite.svg"></a>
+					</div>
+					<a class="links" href="#">Servicios Web</a>
+					<a class="links" href="#">Nosotros</a>
+					<a class="links" href="#">Servicios</a>
+					<a class="links" href="#">Contacto</a>
+					<a class="navbar-brand logo_menu2" href="#"><img src="images/LogoVeritas.svg" alt="logo"> </a>
 				</div>
 			</div>
-			<div id="fondonegro"></div>
+			<div onclick="closeNav()" id="fondonegro"></div>
   </nav>
   <!--/.Navbar-->
 
   <script>
+	var slidesNumber = 3;
 	var tamaño = window.innerWidth;
 	var porcentaje = "500px";
 	if(tamaño <= 790){
 		porcentaje = "100%";
+	  slidesNumber = 1;
 	}else{
 		porcentaje = "500px";
+		slidesNumber = 3;
 	}
   function openNav() {
       document.getElementById("myNav").style.width = porcentaje;

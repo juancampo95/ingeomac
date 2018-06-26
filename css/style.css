@@ -55,7 +55,7 @@ a{	font-family: Caviar-Dreams-Bold;}
 #fondonegro{
   content:"";
   position: fixed;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.3);
   position: fixed;
   display: none;
   height: 100%;
@@ -65,35 +65,71 @@ a{	font-family: Caviar-Dreams-Bold;}
   z-index:4;
   transition: 0.5s;
 }
-
+.overlayNav a{
+  margin:0 0.5em;
+  color: white;
+}
 .overlay-content {
     position: relative;
-    top: 25%;
+    top: 5%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
 }
-
-.overlayNav a {
-    padding: 8px;
+.links {
+    width: 100%;
+    padding:1rem 2rem;
     text-decoration: none;
+    text-align: left;
     font-size: 24px;
     color: #FFF;
     display: block;
     transition: 0.3s;
+    background-color: transparent;
+    margin-left: 0px!important;
 }
-
+.links::after{
+  content:"";
+  position: absolute;
+  width: 35px;
+  height: 20px;
+  right: 20%;
+  margin-top: 10px;
+  background-image: url("../images/down-arrow.svg");
+  background-size: cover;
+  background-position: center;
+}
+.links:hover {
+  background-color: rgb(242, 57, 57);
+}
+.logo_menu img{
+  width: 150px;
+}
+.logo_menu2 img{
+  width: 250px;
+}
 .overlayNav a:hover, .overlayNav a:focus {
-    color: #BBB;
+    color: white;
 }
 
 .overlayNav .closebtn {
     position: absolute;
-    top: 20px;
-    right: 45px;
+    top: 10px;
+    right: 25px;
     font-size: 60px;
 }
-
+.redes_menu img{
+  width: 40px;
+}
+.redes_menu{
+  margin: 1em auto;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 0.5em;
+}
 @media screen and (max-height: 450px) {
   .overlayNav a {font-size: 20px}
   .overlayNav .closebtn {
@@ -243,8 +279,10 @@ a.btn-only{
 /* FOOTER */
 
 .pie_d_page{
+  box-shadow:inset 0px 15px 8px -10px rgba(0, 0, 0, 0.3);
     color: white;
-    padding:4em;
+    padding:1em 4em;
+    font-size: 1.4rem;
 }
 .footer-title{
     margin: 0 auto 3em auto;
@@ -269,16 +307,18 @@ footer ul{
     list-style: none;
     padding: 0;
 }
-.logos_redesfooter img{
-    width: 40px;
-}
 .footer_links2{
-    justify-content: flex-start;
+    justify-content: center;
     text-align: right;
+}
+.footer_links1{
+  justify-content: center;
+  text-align: left;
 }
 .logo_etnia_footer{
     margin: 2em auto;
     flex-flow: column wrap;
+    font-size: 0.8em;
 }
 .logo_etnia_footer img{
     margin: 0 auto;
@@ -288,10 +328,9 @@ footer ul{
     margin: 0 auto;
     width: 300px!important;
 }
-.logos_redesfooter a,.logos_redesfooter a:hover, .logos_redesfooter li,.logos_redesfooter li:hover{
-    padding:0!important;
-    transition: all linear 0.1s;
-    background-color: transparent;
+.copyright{
+  background-color: rgb(51, 51, 51);
+  color: white;
 }
 @media (max-width:767px) {
     .pie_d_page{
@@ -300,8 +339,12 @@ footer ul{
         text-align: center;
     }
     .footer_links2{
-       justify-content: flex-end;
+       justify-content: center;
        text-align: center;
+    }
+    .footer_links1{
+      justify-content: center;
+      text-align: center;
     }
 }
 /* CIERRE DE FOOTER */

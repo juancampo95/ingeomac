@@ -5,42 +5,37 @@
 
 <footer class="container-fluid pie_d_page section-rojo">
       <div class="row">
-          <div class="col-md-4 col-xs-12">
+          <div class="col-md-4 col-xs-12 d-flex flex-column footer_links1">
+            <ul>
+                <li>Contácto</li>
+                <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 (2) 373 3707</a></li>
+                <li>WhatsApp</li>
+                <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 315 527 5724</a></li>
+                <li>E-Mail</li>
+                <li><a href="#">Email@etnia.com</a></li>
+            </ul>
+           </div>
+          <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer text-center">
+            <img src="images/LogoIngeomac1.jpg">
+            <img src="images/LogoVeritas.svg">
+            <p>Todos los derechos reservados ®copyright 2018 INGEOMAC LTDA. </p>
+          </div>
+          <div class="col-md-4 col-xs-12 d-flex flex-column footer_links2">
             <ul>
                 <li><a href="http://multiractiva.com/wp-etnia/">Clientes</a></li>
+                <li><a href="http://multiractiva.com/wp-etnia/mujeres">Informes</a></li>
+                <li><a href="http://multiractiva.com/wp-etnia/mujeres">Datos</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/mujeres">Servicios</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/hombres">Nosotros</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/contacto">Contácto</a></li>
             </ul>
-           </div>
-          <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer">
-            <img src="images/LogoIngeomac1.jpg">
-            <img src="images/LogoVeritas.svg">
-          </div>
-          <div class="col-md-4 col-xs-12 d-flex flex-column footer_links2">
-              <ul>
-                  <li>E-Mail</li>
-                  <li><a href="#">Email@etnia.com</a></li>
-                  <li>WhatsApp</li>
-                  <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 315 527 5724</a></li>
-                  <li>Numero</li>
-                  <li><a>+57 (2) 373 3707</a></li>
-              </ul>
-          <div class="logos_redesfooter" >
-                      <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_facebook.svg"></a>
-                      <a href="https://www.instagram.com/etniasport/"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_instagram.svg"></a>
-                      <a href="https://api.whatsapp.com/send?phone=573116303921"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_whatsapp.svg"></a>
-              </div>
-          </div>
-          <div class="col-12 text-center text-xs-center mt-4 " style="font-size: 14px;">
-                <p>Todos los derechos reservados ®copyright 2018 INGEOMAC LTDA.
-                </p>
-                <hr>
-                <p>Desarrollo y Diseño web 2018 por Multiractiva Agencia de Diseño Digital - Contacto: ceo@multiractiva.com </p>
-                <img width="200" src="https://licoresla85.com/wp-etnia/wp-content/themes/etnia-theme/images/multir-blanco-02.svg" alt="">
             </div>
       </div>
 </footer>
+<div class="col-12 text-center text-xs-center pt-2 copyright" style="font-size: 14px;">
+  <p>Desarrollo y Diseño web 2018 por Multiractiva Agencia de Diseño Digital - Contacto: ceo@multiractiva.com </p>
+  <img width="200" src="https://licoresla85.com/wp-etnia/wp-content/themes/etnia-theme/images/multir-blanco-02.svg" alt="">
+</div>
 
 </body>
 </html>
@@ -49,8 +44,10 @@
 <script src="js/mdb.min.js"></script>
 <script src="js/swiper.min.js"></script>
 <script>
+
+
 var swiper = new Swiper('.swiper-container', {
-  slidesPerView: 3,
+  slidesPerView: slidesNumber,
   spaceBetween: 30,
   slidesPerGroup: 3,
   loop: true,
