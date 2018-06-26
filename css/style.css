@@ -249,8 +249,10 @@ footer ul{
 }
 .logo_etnia_footer{
     margin: 2em auto;
+    flex-flow: column wrap;
 }
 .logo_etnia_footer img{
+    margin: 0 auto;
     height: 200px;
     width: 200px;
 }

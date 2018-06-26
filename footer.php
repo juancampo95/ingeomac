@@ -15,6 +15,7 @@
            </div>
           <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer">
             <img src="images/LogoIngeomac1.jpg">
+            <img src="images/LogoVeritas.png">
           </div>
           <div class="col-md-4 col-xs-12 d-flex flex-column footer_links2">
               <ul>
@@ -23,7 +24,7 @@
                   <li>WhatsApp</li>
                   <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 315 527 5724</a></li>
                   <li>Numero</li>
-                  <li><a>373 3707</a></li>
+                  <li><a>+57 (2) 373 3707</a></li>
               </ul>
           <div class="logos_redesfooter" >
                       <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_facebook.svg"></a>
