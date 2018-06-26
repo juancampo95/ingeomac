@@ -32,7 +32,7 @@
               </div>
           </div>
           <div class="col-12 text-center text-xs-center mt-4 " style="font-size: 14px;">
-                <p>Todos los derechos reservados ®copyright 2018 INGEOMAC.
+                <p>Todos los derechos reservados ®copyright 2018 INGEOMAC LTDA.
                 </p>
                 <hr>
                 <p>Desarrollo y Diseño web 2018 por Multiractiva Agencia de Diseño Digital - Contacto: ceo@multiractiva.com </p>
