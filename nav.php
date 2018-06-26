@@ -30,11 +30,11 @@
     <div id="myNav" class="overlayNav">
       <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
       <div class="overlay-content">
-				<a class="navbar-brand" href="#"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
-        <a href="#">Contact</a>
+				<a class="navbar-brand logo_pagina" href="#"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
+        <a href="#">Servicios Web</a>
+        <a href="#">Nosotros</a>
+        <a href="#">Servicios</a>
+        <a href="#">Contacto</a>
       </div>
     </div>
   </nav>
