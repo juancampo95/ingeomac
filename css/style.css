@@ -14,19 +14,23 @@ a{	font-family: Caviar-Dreams-Bold;}
 }
 /* NAVBAR STYLE */
 .logo_pagina img{
-  width: 80px;
+  width: 100px;
 }
-.logo_pagina img:last-child{
-  width:120px;
+.logo_pagina a:last-child img{
+  width:130px;
 }
 .nav-contact{
+  margin-right: 2em;
   text-align: right;
 }
 .nav-contact h4{
   color:red;
   font-family: Caviar-Dreams-Bold;
 }
-
+@media (max-width:560px){
+  .nav-contact{display: none;}
+  .logo_pagina a:last-child img{display: none;}
+}
 .toggle-lines{
   justify-content: flex-end;
 }
@@ -35,17 +39,29 @@ a{	font-family: Caviar-Dreams-Bold;}
   height: 40px;
   color: red;
 }
+.overlayNavContainer{
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  display: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index:5;
+  transition: 0.5s;
+}
 .overlayNav {
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 999;
+    z-index: 5;
     top: 0;
     right: 0;
     background-color: rgb(0,0,0);
     background-color: #E60000EE!important;
     overflow-x: hidden;
     transition: 0.5s;
+    box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.5);
 }
 
 .overlay-content {
@@ -264,12 +280,7 @@ footer ul{
 }
 .logo_etnia_footer img{
     margin: 0 auto;
-<<<<<<< HEAD
     width: 200px;
-=======
-    height: 200px;
-    width: 250px;
->>>>>>> a07d97c2c316b4285f84bffd38561faf1ae80ca7
 }
 .logo_etnia_footer img:lastchild{
     margin: 0 auto;

@@ -21,32 +21,34 @@
 
       <div class="collapse navbar-collapse toggle-lines" id="basicExampleNav">
 				<div class="nav-contact">
-					<h4>Contacto</h4>
+					<h4>Contácto</h4>
 					<h5>373 3707</h5>
 				</div>
         <a href="javascript:void(0)" class="closebtn" onclick="openNav()"><span class="navbar-toggler-icon"></span></a>
       </div>
     </div>
-    <div id="myNav" class="overlayNav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="overlay-content">
-				<a class="navbar-brand logo_pagina" href="#"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
-        <a href="#">Servicios Web</a>
-        <a href="#">Nosotros</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-      </div>
-    </div>
+    <!-- <div  class="overlayNavContainer"> -->
+			<div id="myNav" class="overlayNav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<div class="overlay-content">
+					<a class="navbar-brand logo_pagina" href="#"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
+					<a href="#">Servicios Web</a>
+					<a href="#">Nosotros</a>
+					<a href="#">Servicios</a>
+					<a href="#">Contacto</a>
+				</div>
+			</div>
+    <!-- </div> -->
   </nav>
   <!--/.Navbar-->
 
   <script>
 	var tamaño = window.innerWidth;
-	var porcentaje = "50%";
+	var porcentaje = "500px";
 	if(tamaño <= 790){
 		porcentaje = "100%";
 	}else{
-		porcentaje = "50%";
+		porcentaje = "500px";
 	}
   function openNav() {
       document.getElementById("myNav").style.width = porcentaje;
