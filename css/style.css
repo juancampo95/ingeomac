@@ -305,3 +305,14 @@ footer ul{
     }
 }
 /* CIERRE DE FOOTER */
+/* Nosotros */
+.flotante{
+  position: absolute;
+  z-index: 3;
+  margin-top: 300px;
+  height: 500px;
+}
+.us-header{
+  justify-content: center!important;
+}
+/*CIERRE Nosotros */
