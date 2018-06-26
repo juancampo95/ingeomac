@@ -39,17 +39,6 @@ a{	font-family: Caviar-Dreams-Bold;}
   height: 40px;
   color: red;
 }
-.overlayNavContainer{
-  background-color: rgba(0,0,0,0.5);
-  position: fixed;
-  display: none;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index:5;
-  transition: 0.5s;
-}
 .overlayNav {
     height: 100%;
     width: 0;
@@ -62,6 +51,19 @@ a{	font-family: Caviar-Dreams-Bold;}
     overflow-x: hidden;
     transition: 0.5s;
     box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.5);
+}
+#fondonegro{
+  content:"";
+  position: fixed;
+  background-color: rgba(0,0,0,0.5);
+  position: fixed;
+  display: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index:4;
+  transition: 0.5s;
 }
 
 .overlay-content {

@@ -27,7 +27,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="openNav()"><span class="navbar-toggler-icon"></span></a>
       </div>
     </div>
-    <!-- <div  class="overlayNavContainer"> -->
+
 			<div id="myNav" class="overlayNav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<div class="overlay-content">
@@ -38,7 +38,7 @@
 					<a href="#">Contacto</a>
 				</div>
 			</div>
-    <!-- </div> -->
+			<div id="fondonegro"></div>
   </nav>
   <!--/.Navbar-->
 
@@ -52,8 +52,10 @@
 	}
   function openNav() {
       document.getElementById("myNav").style.width = porcentaje;
+      document.getElementById("fondonegro").style.display = "block";
   }
   function closeNav() {
       document.getElementById("myNav").style.width = "0%";
+			document.getElementById("fondonegro").style.display = "none";
   }
   </script>
