@@ -253,8 +253,11 @@ footer ul{
 }
 .logo_etnia_footer img{
     margin: 0 auto;
-    height: 200px;
     width: 200px;
+}
+.logo_etnia_footer img:lastchild{
+    margin: 0 auto;
+    width: 300px!important;
 }
 .logos_redesfooter a,.logos_redesfooter a:hover, .logos_redesfooter li,.logos_redesfooter li:hover{
     padding:0!important;
