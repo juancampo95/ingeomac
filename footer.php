@@ -21,7 +21,9 @@
                   <li>E-Mail</li>
                   <li><a href="#">Email@etnia.com</a></li>
                   <li>WhatsApp</li>
-                  <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 311 630 3921</a></li>
+                  <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 315 527 5724</a></li>
+                  <li>Numero</li>
+                  <li><a>373 3707</a></li>
               </ul>
           <div class="logos_redesfooter" >
                       <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_facebook.svg"></a>
@@ -30,7 +32,7 @@
               </div>
           </div>
           <div class="col-12 text-center text-xs-center mt-4 " style="font-size: 14px;">
-                <p>Todos los derechos reservados ®copyright 2018 LICORES LA 85 BAR.
+                <p>Todos los derechos reservados ®copyright 2018 INGEOMAC.
                 </p>
                 <hr>
                 <p>Desarrollo y Diseño web 2018 por Multiractiva Agencia de Diseño Digital - Contacto: ceo@multiractiva.com </p>
