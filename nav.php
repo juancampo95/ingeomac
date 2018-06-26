@@ -32,10 +32,16 @@
   <!--/.Navbar-->
 
   <script>
+	var tamaño = window.innerWidth;
+	var porcentaje = "50%";
+	if(tamaño <= 790){
+		porcentaje = "100%";
+	}else{
+		porcentaje = "50%";
+	}
   function openNav() {
-      document.getElementById("myNav").style.width = "50%";
+      document.getElementById("myNav").style.width = porcentaje;
   }
-
   function closeNav() {
       document.getElementById("myNav").style.width = "0%";
   }
