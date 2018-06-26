@@ -15,6 +15,7 @@
   <nav class="navbar navbar-expand navbar-light">
     <div class="container">
       <a class="navbar-brand logo_pagina" href="#"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
+      <a class="navbar-brand logo_pagina" href="#"><img src="images/LogoVeritasColor.jpg" alt="logo"> </a>
       <div class="collapse navbar-collapse toggle-lines" id="basicExampleNav">
         <a href="javascript:void(0)" class="closebtn" onclick="openNav()"><span class="navbar-toggler-icon"></span></a>
       </div>

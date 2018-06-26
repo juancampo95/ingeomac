@@ -15,7 +15,7 @@
            </div>
           <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer">
             <img src="images/LogoIngeomac1.jpg">
-            <img src="images/LogoVeritas.png">
+            <img src="images/LogoVeritas.svg">
           </div>
           <div class="col-md-4 col-xs-12 d-flex flex-column footer_links2">
               <ul>

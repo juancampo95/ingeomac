@@ -16,6 +16,10 @@ a{	font-family: Caviar-Dreams-Bold;}
 .logo_pagina img{
   width: 80px;
 }
+.logo_pagina img:last-child{
+  width:110px;
+}
+
 .toggle-lines{
   justify-content: flex-end;
 }
@@ -254,7 +258,7 @@ footer ul{
 .logo_etnia_footer img{
     margin: 0 auto;
     height: 200px;
-    width: 200px;
+    width: 300px;
 }
 .logos_redesfooter a,.logos_redesfooter a:hover, .logos_redesfooter li,.logos_redesfooter li:hover{
     padding:0!important;
