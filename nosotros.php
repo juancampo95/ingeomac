@@ -1,5 +1,5 @@
 <?php include("nav.php") ?>
-<header class="container-fluid header" style="background-image: url('images/Nosotros.jpg');">
+<header class="container-fluid header" style="background-image: url('images/NosotrosBlur.jpg');">
   <div class="container">
 
   </div>
