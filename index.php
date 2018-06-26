@@ -1,22 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<!-- Requerido para adaptación movil -->
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Ingeomac Ltda</title>
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<link rel="stylesheet" href="css/mdb.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
-	<link rel="stylesheet" href="css/style.css">
-
-</head>
-<body>
-	<nav></nav>
-
+<?php include("nav.php") ?>
 	<header class="container-fluid header" style="background-image: url('images/Inicio.jpg');">
-		<h1>Calidad y compromiso</h1>
+		<div class="container">
+			<h1>Calidad y compromiso</h1>
+		</div>
 	</header>
 
 	<section class="container-fluid">
@@ -47,9 +33,7 @@
 		</article>
 	</section>
 
-<?php
-	include("components/cards_index.php");
- ?>
+	<?php	include("components/cards_index.php"); ?>
 
 	<section class="container-fluid section-rojo">
 		<article class="container  callToAction">
@@ -111,6 +95,4 @@
 		</article>
 	</section>
 
-	<?php
-		include("footer.php");
-	 ?>
+	<?php	include("footer.php"); ?>

@@ -29,13 +29,13 @@
                       <a href="https://api.whatsapp.com/send?phone=573116303921"><img src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/rrss/rrss_whatsapp.svg"></a>
               </div>
           </div>
-          <div class="col-12 text-md-right text-xs-center mt-4 " style="font-size: 14px;">
-              <p>Todos los derechos reservados ®copyright 2018 ETNIA.
-              </p>
-              <hr>
-              <p>Desarrollo y Diseño web 2018 por el equipo TEAM muldimedial - Estudiantes Juan Camilo Campo, Johnatan Sanchez, Ruben Timote, Daniel pinedo, Andrew Rivera del sexto semestre de la jornada nocturna - Fundación Academia de Dibujo Profesional cali - Contacto: ceo@multiractiva.com </p>
-              <img width="200" src="http://multiractiva.com/wp-etnia/wp-content/themes/etnia-theme/images/multir-blanco-02.svg" alt="">
-          </div>
+          <div class="col-12 text-center text-xs-center mt-4 " style="font-size: 14px;">
+                <p>Todos los derechos reservados ®copyright 2018 LICORES LA 85 BAR.
+                </p>
+                <hr>
+                <p>Desarrollo y Diseño web 2018 por Multiractiva Agencia de Diseño Digital - Contacto: ceo@multiractiva.com </p>
+                <img width="200" src="https://licoresla85.com/wp-etnia/wp-content/themes/etnia-theme/images/multir-blanco-02.svg" alt="">
+            </div>
       </div>
 </footer>
 

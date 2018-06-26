@@ -8,6 +8,73 @@ a{	font-family: Caviar-Dreams-Bold;}
   background-color: #E60000!important;
   border-color: #E60000!important;
 }
+.danger-color{
+  color: #fff;
+  background-color: #E60000!important;
+}
+/* NAVBAR STYLE */
+.logo_pagina img{
+  width: 80px;
+}
+.toggle-lines{
+  justify-content: flex-end;
+}
+.navbar-toggler-icon{
+  width: 40px;
+  height: 40px;
+  color: red;
+}
+.overlayNav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0);
+    background-color: #E60000EE!important;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlayNav a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #FFF;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlayNav a:hover, .overlayNav a:focus {
+    color: #BBB;
+}
+
+.overlayNav .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlayNav a {font-size: 20px}
+  .overlayNav .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+/* CIERRE NAVBAR STYLE */
+
 
 body{
 	font-family: Caviar-Dreams;
@@ -177,7 +244,7 @@ footer ul{
     width: 40px;
 }
 .footer_links2{
-    justify-content: flex-end;
+    justify-content: flex-start;
     text-align: right;
 }
 .logo_etnia_footer{
