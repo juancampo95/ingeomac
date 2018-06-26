@@ -17,7 +17,15 @@ a{	font-family: Caviar-Dreams-Bold;}
   width: 80px;
 }
 .logo_pagina img:last-child{
-  width:110px;
+  width:120px;
+}
+.nav-contact{
+  margin-right: 2em;
+  text-align: right;
+}
+.nav-contact h4{
+  color:red;
+  font-family: Caviar-Dreams-Bold;
 }
 
 .toggle-lines{
@@ -258,7 +266,7 @@ footer ul{
 .logo_etnia_footer img{
     margin: 0 auto;
     height: 200px;
-    width: 300px;
+    width: 250px;
 }
 .logos_redesfooter a,.logos_redesfooter a:hover, .logos_redesfooter li,.logos_redesfooter li:hover{
     padding:0!important;
