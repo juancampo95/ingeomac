@@ -60,6 +60,7 @@
 	if(tamaño <= 790){
 		porcentaje = "100%";
 	  slidesNumber = 1;
+		document.getElementById("img_mapa").src ="images/MapaProcesosNuevoCel.svg";
 	}else{
 		porcentaje = "500px";
 		slidesNumber = 3;

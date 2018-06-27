@@ -63,10 +63,18 @@
         <p>Talento humano competente y comprometido con el mejoramiento continuo y la satisfacción de nuestros clientes.</p>
       </div>
       <div class="col-xs-12 col-md-12 mt-5 mb-5">
-        <img src="images/MapaProcesosNuevo-01.svg" alt="">
+        <img id="img_mapa" src="images/MapaProcesosNuevo-01.svg" alt="">
       </div>
     </div>
   </article>
 </section>
 
 <?php include("footer.php") ?>
+
+<script type="text/javascript">
+if(tamaño <= 790){
+  document.getElementById("img_mapa").src ="images/MapaProcesosNuevoCel.svg";
+}else{
+  document.getElementById("img_mapa").src ="images/MapaProcesosNuevo-01.svg";
+}
+</script>
