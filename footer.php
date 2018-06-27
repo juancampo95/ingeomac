@@ -12,7 +12,7 @@
                 <li>WhatsApp</li>
                 <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 315 527 5724</a></li>
                 <li>E-Mail</li>
-                <li><a href="#">Email@etnia.com</a></li>
+                <li><a href="#">gerencia@ingeomac.com</a></li>
             </ul>
            </div>
           <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer text-center">
