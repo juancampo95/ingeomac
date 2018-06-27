@@ -37,10 +37,14 @@
 						<a target="_blank" href="https://www.instagram.com/licores85cali/"><img src="images/rrss/instagramwhite.svg"></a>
 						<a target="_blank" href="https://api.whatsapp.com/send?phone=573164050464"><img src="images/rrss/whatsappwhite.svg"></a>
 					</div>
-					<a class="links" href="#">Servicios Web</a>
-					<a class="links" href="#">Nosotros</a>
-					<a class="links" href="#">Servicios</a>
-					<a class="links" href="#">Contacto</a>
+					<a class="links waves-effect nav-link linksDrop" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios Web</a>
+						<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+							<a class="links waves-effect linksDropinner" href="#">Consulta de informes</a>
+							<a class="links waves-effect linksDropinner" href="#">Actualización de datos</a>
+						</div>
+					<a class="links waves-effect" href="#">Nosotros</a>
+					<a class="links waves-effect" href="#">Servicios</a>
+					<a class="links waves-effect" href="#">Contacto</a>
 					<a class="navbar-brand logo_menu2" href="#"><img src="images/LogoVeritas.svg" alt="logo"> </a>
 				</div>
 			</div>

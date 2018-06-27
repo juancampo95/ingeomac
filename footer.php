@@ -33,8 +33,8 @@
       </div>
 </footer>
 <div class="col-12 text-center text-xs-center pt-2 copyright" style="font-size: 14px;">
-  <p>Desarrollo y Diseño web 2018 por Multiractiva Agencia de Diseño Digital - Contacto: ceo@multiractiva.com </p>
-  <img width="200" src="https://licoresla85.com/wp-etnia/wp-content/themes/etnia-theme/images/multir-blanco-02.svg" alt="">
+  <p>Desarrollo y Diseño web 2018 por</p>
+  <img width="200" src="images/multir-blanco-02.svg" alt="">
 </div>
 
 </body>
