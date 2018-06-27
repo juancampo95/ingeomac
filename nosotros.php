@@ -33,6 +33,7 @@
   <p>
   INGEOMAC LTDA implementó su Sistema de Calidad bajo la norma ISO 9001-2008, con la firma Bureau Veritas Colombia Ltda.
 </p>
+<img src="images/LogoVeritasColor.jpg" width="300" alt="">
 </div>
 <section class="container-fluid section-rojo">
   <article class="container info-nosotros">
@@ -53,15 +54,15 @@
     <h2>Política de calidad</h2>
     <div class="row p-container">
       <div class=" col-xs-12 col-sm-12 col-md-4 parrafos parrafosrojo">
-        <p>Contamos con 15 años de experiencia en el mercado.</p>
+        <p>Estamos comprometidos con entregar resultados oportunos, idóneos y confiables.</p>
       </div>
       <div class=" col-xs-12 col-sm-12 col-md-4 parrafos parrafosrojo">
-        <p>Le permitimos conocer con exactitud la calidad de sus materiales.</p>
+        <p>Damos cumplimiento a la normativa vigente, con equipos e infraestructura de la mejor calidad.</p>
       </div>
       <div class=" col-xs-12 col-sm-12 col-md-4 parrafos parrafosrojo">
-        <p>Trabajamos con concreto, pavimento, mampostería, entre otros.</p>
+        <p>Talento humano competente y comprometido con el mejoramiento continuo y la satisfacción de nuestros clientes.</p>
       </div>
-      <div class="col-xs-12 col-md-12">
+      <div class="col-xs-12 col-md-12 mt-5 mb-5">
         <img src="images/MapaProcesosNuevo-01.svg" alt="">
       </div>
     </div>

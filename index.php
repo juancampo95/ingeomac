@@ -17,7 +17,7 @@
 	</section>
 	<section class="container-fluid section-rojo">
 		<article class="container callToAction ">
-			<h2>Servicios Web</h2>
+			<h2>Conoce sobre nosotros	</h2>
 			<div class="row p-container">
 				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">
 					<p>Contamos con 15 años de experiencia en el mercado.</p>
@@ -29,7 +29,7 @@
 					<p>Trabajamos con concreto, pavimento, mampostería, entre otros.</p>
 				</div>
 			</div>
-			<a class="btn btn-white btn-lg btn-only" href="#">Ver más</a>
+			<a class="btn btn-white btn-lg btn-only" href="nosotros.php">Ver más</a>
 		</article>
 	</section>
 

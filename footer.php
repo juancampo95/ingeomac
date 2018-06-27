@@ -22,11 +22,11 @@
           </div>
           <div class="col-md-4 col-xs-12 d-flex flex-column footer_links2">
             <ul>
-                <li><a href="http://multiractiva.com/wp-etnia/">Clientes</a></li>
+                <li><a href="index.php">Inicio</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/mujeres">Informes</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/mujeres">Datos</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/mujeres">Servicios</a></li>
-                <li><a href="http://multiractiva.com/wp-etnia/hombres">Nosotros</a></li>
+                <li><a href="nosotros.php">Nosotros</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/contacto">Contácto</a></li>
             </ul>
             </div>
