@@ -62,7 +62,7 @@
         <p>Trabajamos con concreto, pavimento, mampostería, entre otros.</p>
       </div>
       <div class="col-xs-12 col-md-12">
-        <img src="images/mapaprocesos.svg" alt="">
+        <img src="images/MapaProcesosNuevo-01.svg" alt="">
       </div>
     </div>
   </article>
