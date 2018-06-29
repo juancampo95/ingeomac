@@ -5,39 +5,41 @@
     <h2 class="textobarra">Contactenos</h2>
     <div class="row us-inicio">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
         <form>
-    <!-- Material input text -->
-    <div class="md-form">
-        <i class="fa fa-user prefix grey-text"></i>
-        <input type="text" id="materialFormContactNameEx" class="form-control">
-        <label for="materialFormContactNameEx">Your name</label>
-    </div>
+          <!-- Material input text -->
+          <div class="md-form">
+              <i class="fa fa-user prefix grey-text"></i>
+              <input type="text" id="materialFormContactNameEx" class="form-control">
+              <label for="materialFormContactNameEx">Your name</label>
+          </div>
 
-    <!-- Material input email -->
-    <div class="md-form">
-        <i class="fa fa-envelope prefix grey-text"></i>
-        <input type="email" id="materialFormContactEmailEx" class="form-control">
-        <label for="materialFormContactEmailEx">Your email</label>
-    </div>
+          <!-- Material input email -->
+          <div class="md-form">
+              <i class="fa fa-envelope prefix grey-text"></i>
+              <input type="email" id="materialFormContactEmailEx" class="form-control">
+              <label for="materialFormContactEmailEx">Your email</label>
+          </div>
 
-    <!-- Material input subject -->
-    <div class="md-form">
-        <i class="fa fa-tag prefix grey-text"></i>
-        <input type="text" id="materialFormContactSubjectEx" class="form-control">
-        <label for="materialFormContactSubjectEx">Subject</label>
-    </div>
+          <!-- Material input subject -->
+          <div class="md-form">
+              <i class="fa fa-tag prefix grey-text"></i>
+              <input type="text" id="materialFormContactSubjectEx" class="form-control">
+              <label for="materialFormContactSubjectEx">Subject</label>
+          </div>
 
-    <!-- Material textarea message -->
-    <div class="md-form">
-        <i class="fa fa-pencil prefix grey-text"></i>
-        <textarea type="text" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3"></textarea>
-        <label for="materialFormContactMessageEx">Your message</label>
-    </div>
+          <!-- Material textarea message -->
+          <div class="md-form">
+              <i class="fa fa-pencil prefix grey-text"></i>
+              <textarea type="text" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3"></textarea>
+              <label for="materialFormContactMessageEx">Your message</label>
+          </div>
 
-    <div class="text-center mt-4">
-        <button class="btn btn-outline-secondary" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
-    </div>
-</form>
+          <div class="text-center mt-4">
+              <button class="btn btn-outline-secondary" type="submit">Send<i class="fa fa-paper-plane-o ml-2"></i></button>
+          </div>
+        </form>
+
       </div>
     </div>
   </div>
