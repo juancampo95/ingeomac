@@ -158,6 +158,10 @@ body section{
 	background-color: #E60000;
 	color: white!important;
 }
+.section-blanco{
+	background-color: white;
+	color: #2b2c2d!important;
+}
 header.header{
 	height: 500px;
 	background-position: center;
@@ -447,3 +451,47 @@ footer ul{
   font-family: Caviar-Dreams-Bold;
 }
 /*CIERRE Nosotros */
+
+/*INICIO Contacto*/
+.red-space{
+  width: 100%;
+  height: 500px;
+  background-color: #E60000;
+}
+.info-contacto{
+    padding:2em 1em;
+}
+.info-contacto p{
+  font-size: 1.2em;
+}
+.info-contacto h2{
+  font-weight: bolder;
+  text-align: center;
+  font-family: Caviar-Dreams-Bold;
+}
+@media (max-width:990px){
+  .red-space{
+    width: 100%;
+    height: 980px;
+  }
+}
+.parrafos-contacto{
+	text-align: center;
+	margin: 0 auto!important;
+  padding: 1em;
+}.parrafos-contacto p{
+	text-align: center;
+}
+.parrafos-contacto img{
+  width: 90px;
+}
+.parrafosrojo-contacto p{
+  margin: 0 auto;
+}
+.textobarra{
+  border-left: 10px solid #E60000 !important;
+}
+.barra{
+  border-right: 50px solid #E60000 !important;
+}
+/*CIERRE Contacto*/
