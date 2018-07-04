@@ -494,4 +494,7 @@ footer ul{
 .barra{
   border-right: 50px solid #E60000 !important;
 }
+.pd-form{
+  padding: 3em !important;
+}
 /*CIERRE Contacto*/
