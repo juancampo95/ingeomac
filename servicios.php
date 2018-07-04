@@ -4,17 +4,25 @@
   <div class="container callToAction section-rojo flotante">
     <h2>Servicios</h2>
     <div class="row us-inicio">
+      <h3>En Ingeomac Ltda.</h3>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p>Estamos comprometidos con entregar resultados oportunos, idóneos y confiables,
+          dando cumplimiento a la normatividad vigente, con equipos e infraestructura de
+          la mejor calidad, talento humano competente y comprometido con el mejoramiento
+          continuo y la satisfacción de nuestros clientes.</p>
+      </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-        <p>Somos un laboratorio de concretos, suelos y pavimentos, dedicado al control de calidad de los materiales usados en las construcciones de obras civiles y la patología de estructuras, comprometidos con la satisfacción del cliente entregando resultados oportunos, idóneos y confiables, dando cumplimiento a las normas vigentes en la realizaciones de cada uno de nuestros ensayos, con equipos modernos e infraestructura que nos hacen lÍderes a nivel nacional.</p>
+        <img src="images/Mujer.jpg" alt="">
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+        <img src="images/Mujer.jpg" alt="">
       </div>
     </div>
-      <div class="col-xs-12 col-md-12 redes-somos">
-        <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/facebookwhite.svg"></a>
-        <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/whatsappwhite.svg"></a>
-        <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/instagramwhite.svg"></a>
-        <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/twitterwhite.svg"></a>
-      </div>
   </div>
 </header>
+<div class="white-space"></div>
+<div class="container info-nosotros">
+  <h2 class="mb-4">Presentación de la firma</h2>
+</div>
 
 <?php include("footer.php") ?>
