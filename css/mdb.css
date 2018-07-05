@@ -6618,9 +6618,9 @@ body.scrollable {
     .md-form input[type=search-md]:focus:not([readonly]),
     .md-form input[type=search]:focus:not([readonly]),
     .md-form textarea.md-textarea:focus:not([readonly]) {
-      -webkit-box-shadow: 0 1px 0 0 #4285f4;
-      box-shadow: 0 1px 0 0 #4285f4;
-      border-bottom: 1px solid #4285f4; }
+      -webkit-box-shadow: 0 1px 0 0 #f44242;
+      box-shadow: 0 1px 0 0 #f44242;
+      border-bottom: 1px solid #f44242; }
       .md-form input[type=text]:focus:not([readonly]) + label,
       .md-form input[type=password]:focus:not([readonly]) + label,
       .md-form input[type=email]:focus:not([readonly]) + label,
@@ -6633,7 +6633,7 @@ body.scrollable {
       .md-form input[type=search-md]:focus:not([readonly]) + label,
       .md-form input[type=search]:focus:not([readonly]) + label,
       .md-form textarea.md-textarea:focus:not([readonly]) + label {
-        color: #4285f4; }
+        color: #f44242; font-weight: bold;}
     .md-form input[type=text] + label:after,
     .md-form input[type=password] + label:after,
     .md-form input[type=email] + label:after,

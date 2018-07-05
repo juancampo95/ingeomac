@@ -2,7 +2,7 @@
 
 <header class="container-fluid header us-header" style="background-image: url('images/Contacto.jpg');">
   <div class="container callToAction section-blanco flotante barra margin_contacto">
-    <h2 class="textobarra">Contactenos</h2>
+    <h2 class="textobarra">Contáctenos</h2>
     <div class="row us-inicio">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
@@ -46,8 +46,8 @@
 <div class="red-space"></div>
 <div class="container-fluid section-rojo">
   <div class="container section-rojo info-contacto">
-    <h2>Datos de Contacto</h2>
-    <p>En INGEOMAC LTDA estamos comprometidos con la prestación de un servicio de calidad, es por eso que estamos siempre atentos a cualquier tipo de comunicación que nuestros clientes quieran tener con nosotros, debido a eso tenemos distintos canales y medios por los cuales nos podemos  comunicar.</p>
+    <h2>Datos de Contacto</h2><br>
+    <p class="text-center">En INGEOMAC LTDA estamos comprometidos con la prestación de un servicio de calidad, es por eso que estamos siempre atentos a cualquier tipo de comunicación que nuestros clientes quieran tener con nosotros, debido a eso tenemos distintos canales y medios por los cuales nos podemos  comunicar.</p>
   </div>
   <article class="container callToAction section-rojo ">
     <div class="row p-container">
