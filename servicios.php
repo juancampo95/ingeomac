@@ -29,12 +29,12 @@
   <div class="row">
     <aside class="col-lg-3 servicios_links">
       <ul>
-        <a href="#anclaServices"><li class="waves-effect" >Concreto y mortero</li></a>
-        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s1)" >Concreto y mortero</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s2)" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
       </ul>
     </aside>
     <article id="anclaServices" class="col-lg-9 descripcion_article">
@@ -42,7 +42,12 @@
     </article>
   </div>
 </section>
+
+
+
+<script src="js/servicios.js"></script>
 <?php include("footer.php") ?>
+
 <script name="animación de desplazamiento de flecha">
 	$(function(){
 	 $('a[href*=#anclaServices]').click(function() {

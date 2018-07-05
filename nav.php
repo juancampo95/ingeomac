@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="css/mdb.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-1.11.3.min.js"></script>
 </head>
 <body>
   <!--Navbar-->
