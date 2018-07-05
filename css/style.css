@@ -548,7 +548,7 @@ footer ul{
 }
 @media (max-width:990px){
   .margin_servicios{
-    margin-top: 950px;
+    margin-top: 900px;
   }
   .img_servicios img{
     padding: 0;
@@ -567,6 +567,7 @@ footer ul{
   }
   .parrafo-servicios p{
     padding: 1em;
+    text-align: center;
   }
   .margin_info{
     margin-top: 0;
