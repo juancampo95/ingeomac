@@ -5,6 +5,6 @@
         var n = "#s" + parseInt(i);
         $(n).hide();
       }
-      $(contenedor).fadeIn();
+      $(contenedor).fadeIn("fast");
     }
   });
