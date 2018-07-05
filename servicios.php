@@ -29,15 +29,16 @@
   <div class="row">
     <aside class="col-lg-2 servicios_links">
       <ul>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s1)" >Concreto y mortero</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s2)" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s3)" >Mezcla Asfáltica</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s4)" >Suelos</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s5)" >Ensayos Químicos</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s6)" >Patología de Estructuras</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s1)">Concreto y mortero</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s2)">Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s3)">Mezcla Asfáltica</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s4)">Suelos</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s5)">Estudio De Suelos</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s6)">Ensayos Químicos</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s7)">Patología de Estructuras</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s8)">Agregados Pétreos</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s9)">Tensión/Elongación</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s10)">Anclajes</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
