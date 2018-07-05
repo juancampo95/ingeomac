@@ -377,6 +377,9 @@ footer ul{
 .margin_contacto{
   margin-top: 350px;
 }
+.margin_servicios{
+  margin-top: 750px;
+}
 .us-header{
   justify-content: center!important;
 }
@@ -507,6 +510,14 @@ footer ul{
 /*INICIO Servicios*/
 .flotante h3{
   font-family: Caviar-Dreams-Bold;
+}
+.margin_info{
+  margin-top: 300px;
+}
+@media (max-width:990px){
+  .margin_servicios{
+    margin-top: 1050px;
+  }
 }
 
 
