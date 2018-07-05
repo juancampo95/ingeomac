@@ -37,8 +37,8 @@
         <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
       </ul>
     </aside>
-    <article id="anclaServices" class="col-lg-9 ">
-
+    <article id="anclaServices" class="col-lg-9 descripcion_article">
+      <?php include ("servicios_info.php") ?>
     </article>
   </div>
 </section>
