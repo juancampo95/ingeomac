@@ -550,6 +550,9 @@ footer ul{
   width: 100%;
   height: 420px;
 }
+.mb-5{
+  margin-bottom: 1px !important;
+}
 @media (max-width:990px){
   .margin_servicios{
     margin-top: 800px;
@@ -570,18 +573,17 @@ footer ul{
 }
 @media (max-width:780px){
   .margin_servicios{
-    margin-top: 850px;
-    justify-content: center;
+    margin-top: 880px;
   }
   .parrafo-servicios p{
     padding: 1em;
-    text-align: center;
+    text-align: justify;
   }
   .margin_info{
     margin-top: 0;
   }
   .flotante h3{
-    padding-left: 2.8em;
+    padding-left: 1em;
   }
   .img_servicios img{
     width: 80%;
@@ -590,6 +592,27 @@ footer ul{
     height: 850px;
   }
 }
+@media (max-width:380px){
+  .margin_servicios{
+    margin-top: 745px;
+  }
+  .white-space-services{
+    height: 750px;
+  }
+  .parrafo-servicios p{
+    padding: 1em;
+    text-align: center;
+  }
+  .flotante h3{
+    padding-left: 2.8em;
+  }
+  .mb-5{
+    padding-left: 0.8em;
+  }
+}
+
+
+
 .servicios_links{
   background-color: #d20505;
   padding: 1em 0px;
