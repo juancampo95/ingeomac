@@ -25,9 +25,9 @@
                 <li><a href="index.php">Inicio</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/mujeres">Informes</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/mujeres">Datos</a></li>
-                <li><a href="http://multiractiva.com/wp-etnia/mujeres">Servicios</a></li>
+                <li><a href="servicios.php">Servicios</a></li>
                 <li><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="http://multiractiva.com/wp-etnia/contacto">Contácto</a></li>
+                <li><a href="contacto.php">Contácto</a></li>
             </ul>
             </div>
       </div>

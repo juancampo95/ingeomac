@@ -124,6 +124,7 @@ a{	font-family: Caviar-Dreams-Bold;}
     top: 10px;
     right: 0px;
     font-size: 60px;
+    z-index: 10;
 }
 .redes_menu img{
   width: 40px;
