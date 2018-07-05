@@ -20,7 +20,7 @@
     </div>
   </div>
 </header>
-<div class="white-space"></div>
+<div class="white-space-services"></div>
 <div class="container info-nosotros margin_info">
   <h2 class="mb-4">Nuestros Servicios</h2>
 </div>
