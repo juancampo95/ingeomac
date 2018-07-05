@@ -5,17 +5,17 @@
     <h2>Servicios</h2>
     <div class="row us-inicio img_servicios">
       <h3>En Ingeomac Ltda.</h3>
-      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 parrafo-servicios">
         <p>Estamos comprometidos con entregar resultados oportunos, idóneos y confiables,
           dando cumplimiento a la normatividad vigente, con equipos e infraestructura de
           la mejor calidad, talento humano competente y comprometido con el mejoramiento
           continuo y la satisfacción de nuestros clientes.</p>
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-        <img src="images/Mujer.jpg" alt="">
+        <img src="images/ServiciosFlotante.jpg" alt="">
       </div>
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-        <img src="images/Mujer.jpg" alt="">
+        <img src="images/LogoVeritas.svg" alt="">
       </div>
     </div>
   </div>
