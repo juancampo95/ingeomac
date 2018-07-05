@@ -1,7 +1,7 @@
 <?php include("nav.php") ?>
 
 <header class="container-fluid header us-header" style="background-image: url('images/Servicios.jpg');">
-  <div class="container callToAction section-rojo flotante">
+  <div class="container callToAction section-rojo flotante margin_flotante">
     <h2>Servicios</h2>
     <div class="row us-inicio">
       <h3>En Ingeomac Ltda.</h3>
