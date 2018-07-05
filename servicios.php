@@ -25,4 +25,37 @@
   <h2 class="mb-4">Nuestros Servicios</h2>
 </div>
 
+<section class="container-fluid">
+  <div class="row">
+    <aside class="col-lg-3 servicios_links">
+      <ul>
+        <a href="#anclaServices"><li class="waves-effect" >Concreto y mortero</li></a>
+        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" >Mampostería estructural</li></a>
+      </ul>
+    </aside>
+    <article id="anclaServices" class="col-lg-9 ">
+
+    </article>
+  </div>
+</section>
 <?php include("footer.php") ?>
+<script name="animación de desplazamiento de flecha">
+	$(function(){
+	 $('a[href*=#anclaServices]').click(function() {
+	 if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+			 && location.hostname == this.hostname) {
+					 var $target = $(this.hash);
+					 $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+					 if ($target.length) {
+							 var targetOffset = $target.offset().top;
+							 $('html,body').animate({scrollTop: targetOffset}, 1000);
+							 return false;
+					}
+		 }
+ });
+});
+</script>
