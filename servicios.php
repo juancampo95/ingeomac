@@ -48,9 +48,10 @@
     </article>
   </div>
 </section>
-
-
-
+<article class="container-fluid text-center callto">
+  <h2>Contáctanos para más información</h2>
+  <a class="btn btn-danger btn-lg" href="#">Envíanos un mail</a>
+</article>
 <script src="js/servicios.js"></script>
 <?php include("footer.php") ?>
 
