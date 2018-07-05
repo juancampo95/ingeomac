@@ -610,9 +610,6 @@ footer ul{
     padding-left: 0.8em;
   }
 }
-
-
-
 .servicios_links{
   background-color: #d20505;
   padding: 1em 0px;
@@ -626,7 +623,7 @@ footer ul{
 .servicios_links li:hover{
   color: white;
   font-size: 1.5rem;
-  padding: 1rem 0.5rem 1em 1em;
+    padding: 1rem 1em 1em 1em;
   background-color: #E60000;
 }
 .servicios_links ul{
@@ -676,4 +673,17 @@ footer ul{
     height:300px;
   }
 }
+.info_container{
+  display: none;
+}
+.titulo_tabla{
+  width: 100%;
+  text-align: center;
+  background-color:#E60000;
+  color: white;
+  padding:1rem 2rem;
+  margin:1em auto;
+  font-family: Caviar-Dreams-Bold;
+}
+
 /*CIERRE Servicios*/

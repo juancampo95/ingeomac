@@ -1,13 +1,10 @@
   $(document).ready(function(){
-
+    $("#s1").fadeIn();
     mostrar = function(contenedor){
-      console.log("funciona");
       for (var i = 1; i <= 2; i++) {
         var n = "#s" + parseInt(i);
-        $(n).fadeOut();
-        console.log(n);
+        $(n).hide();
       }
       $(contenedor).fadeIn();
     }
-
   });

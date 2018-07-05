@@ -35,6 +35,12 @@
         <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
       </ul>
     </aside>
     <article id="anclaServices" class="col-lg-9 descripcion_article">
