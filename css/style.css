@@ -552,7 +552,7 @@ footer ul{
 }
 @media (max-width:990px){
   .margin_servicios{
-    margin-top: 850px;
+    margin-top: 800px;
   }
   .img_servicios img{
     padding: 0;
@@ -565,12 +565,13 @@ footer ul{
     margin-top: 50px;
   }
   .white-space-services{
-    height: 800px;
+    height: 750px;
   }
 }
 @media (max-width:780px){
   .margin_servicios{
     margin-top: 850px;
+    justify-content: center;
   }
   .parrafo-servicios p{
     padding: 1em;
