@@ -1,7 +1,7 @@
 <?php include("nav.php") ?>
 
 <header class="container-fluid header us-header" style="background-image: url('images/Nosotros.jpg');">
-  <div class="container callToAction section-rojo flotante">
+  <div class="container callToAction section-rojo flotante margin_nosotros">
     <h2>¿Quiénes Somos?</h2>
     <div class="row us-inicio">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">

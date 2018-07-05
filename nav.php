@@ -45,7 +45,7 @@
 						</div>
 					<a class="links waves-effect" href="nosotros.php">Nosotros</a>
 					<a class="links waves-effect" href="#">Servicios</a>
-					<a class="links waves-effect" href="#">Contacto</a>
+					<a class="links waves-effect" href="contacto.php">Contacto</a>
 					<a class="navbar-brand logo_menu2" href="#"><img src="images/LogoVeritas.svg" alt="logo"> </a>
 				</div>
 			</div>
