@@ -37,7 +37,7 @@
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s6)">Ensayos Químicos</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s7)">Patología de Estructuras</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s8)">Agregados Pétreos</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s9)">Tensión/Elongación</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s9)">Tensión y Elongación</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s10)">Anclajes</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s11)">Extracción de Núcleos</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s12)">Esclerómetro</li></a>
