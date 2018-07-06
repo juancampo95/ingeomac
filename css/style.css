@@ -526,6 +526,21 @@ footer ul{
 @media (max-width:400px){
 
 }
+.datos-contacto a{
+  font-family: Caviar-Dreams;
+  text-decoration: none;
+  color: white;
+  padding:0.2em 0;
+  transition: all linear 0.1s;
+}
+.datos-contacto a:hover{
+  font-family: Caviar-Dreams-Bold; 
+  text-decoration: none;
+  color: red;
+  padding:0.2em 0;
+  background-color: white;
+  padding: 0.5em 1em 0.5em 0.5em;
+}
 /*CIERRE Contacto*/
 
 

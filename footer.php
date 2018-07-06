@@ -8,11 +8,11 @@
           <div class="col-md-4 col-xs-12 d-flex flex-column footer_links1">
             <ul>
                 <li>Contácto</li>
-                <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 (2) 373 3707</a></li>
+                <li><a href="tel:+5723733707" target="_blank">+57 (2) 373 3707</a></li>
                 <li>WhatsApp</li>
-                <li><a href="https://api.whatsapp.com/send?phone=573116303921">+57 315 527 5724</a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=573155275724" target="_blank">+57 315 527 5724</a></li>
                 <li>E-Mail</li>
-                <li><a href="#">gerencia@ingeomac.com</a></li>
+                <li><a href="mailto:gerencia@ingeomac.com">gerencia@ingeomac.com</a></li>
             </ul>
            </div>
           <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer text-center">

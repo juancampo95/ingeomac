@@ -34,9 +34,9 @@
 				<div class="overlay-content">
 					<a class="navbar-brand logo_menu" href="index.php"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
 					<div class="redes_menu">
-						<a target="_blank" href="https://www.facebook.com/ranchoylicoresla85/"><img src="images/rrss/facebookwhite.svg"></a>
+						<a target="_blank" href="https://www.facebook.com/ingeomac/"><img src="images/rrss/facebookwhite.svg"></a>
 						<a target="_blank" href="https://www.instagram.com/licores85cali/"><img src="images/rrss/instagramwhite.svg"></a>
-						<a target="_blank" href="https://api.whatsapp.com/send?phone=573164050464"><img src="images/rrss/whatsappwhite.svg"></a>
+						<a target="_blank" href="https://api.whatsapp.com/send?phone=573155275724"><img src="images/rrss/whatsappwhite.svg"></a>
 					</div>
 					<a class="links waves-effect" href="index.php">Inicio</a>
 					<a class="links waves-effect nav-link linksDrop" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios Web</a>
