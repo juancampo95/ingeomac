@@ -443,3 +443,80 @@ Se utilizan además, cuando las pantallas tradicionales continuas, o de pilotes 
   <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/420.jpg'); background-size:cover;"></div>
 </div>
 </div>
+
+
+<!-- Esclerómetro -->
+
+<div id="s13" class="info_container">
+<h1>Otros Servicios</h1>
+<h2 class="titulo_tabla">Listado General Productos</h2>
+<table class="table table-condensed">
+  <tbody>
+    <tr>
+      <th style="font-family:Caviar-Dreams-Bold;">ADOQUINES</th>
+      <th style="font-family:Caviar-Dreams-Bold;">ANÁLISIS ESTADÍSTICO</th>
+    </tr>
+    <tr>
+      <td>Chequeo dimensional</td>
+      <th style="font-family:Caviar-Dreams-Bold;">AGUA</th>
+    </tr>
+    <tr>
+      <td>Porcentaje de absorción</td>
+      <td>Análisis físico - Químico</td>
+    </tr>
+    <tr>
+      <td>Resistencia a la compresión simple</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Resistencia a la flexión</td>
+      <th style="font-family:Caviar-Dreams-Bold;">BALDOSAS DE CEMENTO</th>
+    </tr>
+    <tr>
+      <td>Desgaste de Adoquines</td>
+      <td>Resistencia a la compresión</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>Resistencia a la flexión</td>
+    </tr>
+    <tr>
+      <th style="font-family:Caviar-Dreams-Bold;">BALDOSÍN CERÁMICO</th>
+      <td>Resistencia al desgaste</td>
+    </tr>
+    <tr>
+      <td>Características dimensionales</td>
+      <td>Resistencia al impacto</td>
+    </tr>
+    <tr>
+      <td>Resistencia a la flexión</td>
+      <td>Porcentaje de absorción</td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th style="font-family:Caviar-Dreams-Bold;">OTROS</th>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Ensayo de Traccion de varillas</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Contenido Organico</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Evaluacion Escleometrica</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+<div class="row div_img_container">
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/adoquines.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/baldosa.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/baldosin.jpg'); background-size:cover;"></div>
+</div>
+</div>
