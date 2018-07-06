@@ -12,7 +12,7 @@
         </div>
         <div class="card-body">
           <h4 class="card-title">Mamposteria Estructural</h4>
-          <a href="#" class="btn btn-danger">Ver Más</a>
+          <a href="servicios.php" class="btn btn-danger">Ver Más</a>
         </div>
       </div>
       <!-- Card -->
@@ -26,7 +26,7 @@
         </div>
         <div class="card-body">
           <h4 class="card-title">Concretos y Mortero</h4>
-          <a href="#" class="btn btn-danger">Ver Más</a>
+          <a href="servicios.php" class="btn btn-danger">Ver Más</a>
         </div>
       </div>
       <!-- Card -->
@@ -40,7 +40,7 @@
         </div>
         <div class="card-body">
           <h4 class="card-title">Patologías de Estructuras</h4>
-          <a href="#" class="btn btn-danger">Ver Más</a>
+          <a href="servicios.php" class="btn btn-danger">Ver Más</a>
         </div>
       </div>
       <!-- Card -->
@@ -54,7 +54,7 @@
         </div>
         <div class="card-body">
           <h4 class="card-title">Suelos</h4>
-          <a href="#" class="btn btn-danger">Ver Más</a>
+          <a href="servicios.php" class="btn btn-danger">Ver Más</a>
         </div>
       </div>
       <!-- Card -->
@@ -68,7 +68,7 @@
         </div>
         <div class="card-body">
           <h4 class="card-title">Mezcla Asfáltica</h4>
-          <a href="#" class="btn btn-danger">Ver Más</a>
+          <a href="servicios.php" class="btn btn-danger">Ver Más</a>
         </div>
       </div>
       <!-- Card -->
@@ -82,7 +82,7 @@
         </div>
         <div class="card-body">
           <h4 class="card-title">Anclajes</h4>
-          <a href="#" class="btn btn-danger">Ver Más</a>
+          <a href="servicios.php" class="btn btn-danger">Ver Más</a>
         </div>
       </div>
       <!-- Card -->

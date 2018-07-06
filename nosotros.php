@@ -12,8 +12,8 @@
       </div>
     </div>
       <div class="col-xs-12 col-md-12 redes-somos">
-        <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/facebookwhite.svg"></a>
-        <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/whatsappwhite.svg"></a>
+        <a target="new_blank" href="https://www.facebook.com/ingeomac/"><img src="images/rrss/facebookwhite.svg"></a>
+        <a target="new_blank" href="https://api.whatsapp.com/send?phone=573155275724"><img src="images/rrss/whatsappwhite.svg"></a>
         <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/instagramwhite.svg"></a>
         <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/twitterwhite.svg"></a>
       </div>

@@ -54,23 +54,24 @@
       <div class=" col-xs-12 col-sm-12 col-md-4 parrafos-contacto parrafosrojo-contacto">
         <img src="images/direccionblanco.svg"></a>
         <h2>Dirección</h2>
-        <p>Cl. 19 #35 - 33, Cali, Valle del Cauca</p>
+        <p class="datos-contacto"><a href="https://goo.gl/maps/Lu5MKM8Gh8r" target="_blank">Cl. 19 #35 - 33, Cali, Valle del Cauca</a></p>
       </div>
       <div class=" col-xs-12 col-sm-12 col-md-4 parrafos-contacto parrafosrojo-contacto">
         <img src="images/telefonoblanco.svg"></a>
         <h2>Teléfono</h2>
-        <p>+57 (2) 373 3707</p>
-        <p>+57 315 527 5724</p>
+        <p class="datos-contacto"><a href="tel:+5723733707" target="_blank">+57 (2) 373 3707</a></p>
+        <p class="datos-contacto"><a href="https://api.whatsapp.com/send?phone=573155275724" target="_blank">+57 315 527 5724</a></p class="datos-contacto">
       </div>
       <div class=" col-xs-12 col-sm-12 col-md-4 parrafos-contacto parrafosrojo-contacto">
         <img src="images/emailblanco.svg"></a>
         <h2>Email</h2>
         <p>Escríbenos</p>
-        <p>gerencia@ingeomac.com</p>
+        <p class="datos-contacto"><a href="mailto:gerencia@ingeomac.com">gerencia@ingeomac.com</a></p>
       </div>
     </div>
   </article>
 </div>
+
 
 
 
