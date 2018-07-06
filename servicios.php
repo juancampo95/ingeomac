@@ -39,9 +39,9 @@
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s8)">Agregados Pétreos</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s9)">Tensión/Elongación</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s10)">Anclajes</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="" >Mampostería estructural</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s11)">Extracción de Núcleos</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s12)">Esclerómetro</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s13)" >Otros</li></a>
       </ul>
     </aside>
     <article id="anclaServices" class="col-lg-10 descripcion_article">

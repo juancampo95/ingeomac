@@ -255,7 +255,7 @@ Tomado de la norma NTC 673</p>
 <!-- Patologia de Estructuras -->
 
 <div id="s7" class="info_container">
-<h1 style="color:#af0808;">Principios Básicos Para El Reconocimiento De Una Patología Estructural</h1>
+<h1>Principios Básicos Para El Reconocimiento De Una Patología Estructural</h1>
 <p>Para iniciar cualquier tipo de investigación patológica a una estructura siempre se deben tener presentes los antecedentes históricos de la misma. Estos antecedentes permitirán a los investigadores tener una idea más clara de cuáles son las causas por las que se pueda estar presentando dicha patología en la estructura. A continuación se hacer referencia a los aspectos que se deben tener claros al inicial un estudio patológico:</p>
 <p><span class="negrita">Sismos: </span>Los movimientos telúricos ocurridos durante la vida útil de la estructura.</p>
 <p><span class="negrita">Proceso constructivo: </span>Dependiendo de la forma en que estén dispuestos todos los elementos que componen el sistema estructural primario de las edificaciones, se logrará de una forma más acertada diagnosticar las causas y de igual forma dar las recomendaciones para el tipo de intervención que se le deba realizar a la estructura afectada.</p>
@@ -368,69 +368,78 @@ Tomado de la norma NTC 673</p>
 
 <div id="s10" class="info_container">
 <h1>Anclajes y Pilotes</h1>
-<p>El objetivo principal del ensayo consiste en determinar la máxima resistencia a la compresión de un cilindro de muestra de un concreto frente a una carga aplicada axialmente. Las mezclas de concreto (Hormigón) se pueden diseñar de tal manera que tengan una amplia variedad de propiedades mecánicas y de durabilidad que cumplan con los requerimientos de diseño de la estructura. La resistencia a la compresión del concreto es la medida más común de desempeño que emplean los ingenieros para diseñar edificios y otras estructuras.</p>
-<p>La resistencia a la compresión se mide fracturando probetas cilíndricas de concreto en una maquina de ensayo de compresión. La resistencia a la compresión se calcula a partir de la carga de ruptura dividida por el área de la sección que resiste a la carga y se soporta en unidades de libra-fuerza por pulgada cuadrada (psi). Los resultados de las pruebas de resistencia a la compresión se emplean fundamentalmente para determinar que la mezcla de concreto suministrada cumpla con los requerimientos de la resistencia especificada.</p>
-<p>Los resultados de las pruebas de resistencia a partir de cilindros fundidos se pueden utilizar para fines de control de calidad, aceptación del concreto o para estimar la resistencia del concreto en estructuras para programar las operaciones de construcción. Un resultado de prueba es el promedio de por lo menos 2 pruebas de resistencia curadas de manera estándar o convencional elaboradas con la misma muestra de concreto y sometidas a ensayo a la misma edad. Para la mayoría de los casos, los requerimientos de resistencia para el concreto se alcanzan a la edad de 28 días.</p>
-<p>Para la realización de este ensayo, nuestro laboratorio sigue los lineamientos expresados en la norma NTC 673.
-Tomado de la norma NTC 673</p>
+<p>Los Anclajes son un sistema constructivo que ofrece soporte y firme sujeción a las cimentaciones los cuales consisten en anclar varillas o barras de alta para reforzar una estructura o simplemente dar continuidad a una loza, piso, viga o columna.</p>
+<p><span class="negrita">Ventajas</span></p>
+<li>Un muro sostenido por una hilera de anclajes permite una clava menor respecto del que trabaja como autoportante. La clava mínima con dos o más hileras de anclaje se encuentra entre 1,5 y 2 m., economizando metros de excavación. De este modo se reducen los costes de excavación, de materiales y de tiempo insumido.</li>
+<li>El anclaje hace que varíe la distribución de esfuerzos en el muro, que pasa de trabajar a modo de ménsula a una viga contínua. De esta manera disminuyen los esfuerzos, y ello permite adelgazar el espesor y el armado del muro.</li>
+<li>Este sistema ofrece mayor seguridad en edificaciones contiguas pues elimina los movimientos habituales en muros de contención.</li>
+<li>Mediante los anclajes se logra racionalizar y acortar los tiempos de construcción, ya que la excavación queda totalmente limpia.</li>
+<li>Gran ventaja por la velocidad en la ejecución sobre todo en terrenos blandos, donde se alcanza hasta diez anclajes al día, con mayores rendimientos y menos jornadas de trabajo.</li>
+<p style="margin-top:1em;"><span class="negrita">Tipos de Anclajes</span></p>
+<li><span class="negrita">Anclajes Temporales</span></li>
+<p>Ciertos anclajes se utilizan en forma temporal, por ejemplo para el sostenimiento de un muro pantalla; cuando han finalizado los trabajos del mismo, el anclaje queda fuera de servicio, y aunque la corrosión afecte sus paredes metálicas, esto carece de importancia porque su función ha sido cumplida.</p>
+<li><span class="negrita">Anclajes Permanentes</span></li>
+<p>Los anclajes permanentes cumplen la función de sujetar un muro de manera definitiva; tal es el caso de los muros de contención en carreteras, donde los anclajes son barras de acero con tratamiento anticorrosivo para evitar su deterioro.</p>
+<p><span class="negrita">Micropilotes</span></p>
+<p>Tienen el mismo uso que los pilotes comunes, pero su función difiere de acuerdo a los materiales, la sección y los esfuerzos que puede soportar. Se emplean principalmente para recalzados.</p>
+<p>Tienen una armadura de forma tubular que es el elemento resistente y que se adosa al taladro, mediante roscado o soldado, en los distintos tramos.</p>
+<p>Los procesos de cimentación con micropilotes incluyen, ejecucióin y controles de los pilotes, ubicación de la maquinaria en la zona de implante. Este procedimiento se utiliza cuando las capas del terreno no poseen la capacidad de absorber las cargas transmitidas por la estructura.</p>
+<p>El micropilote tiene menor capacidad portante que un pilote convencional. Se emplean en terrenos donde no pueden utilizarse los pilotes comunes.</p>
+<p>Aplicaciones de los micropilotes:</p>
+<p>Los micropilotes se emplean principalmente en el recalce de edificios y pueden utilizarse como:</p>
+<li>Para reforzar cimentaciones en ampliaciones de edificios.</li>
+<li>Para recalzar edificios.</li>
+<li>En cimentaciones profundas en terrenos de acceso dificultoso o dimensiones muy reducidas.</li>
+<li>Para reforzar y sostener los cimientos ya existentes al excavar sótanos.</li>
+<li>Como cimentaciones profundas en terrenos no aptos para los pilotes tradicionales.</li>
+<p style="margin-top:1em;">En cimentaciones nuevas, cuando necesitamos cimentar una estructura con otras estructuras colindantes y no se permiten ciertas actividades como: golpeteo fuerte; vibraciones; excavaciones extensas sin entubar; acceso de maquinaria normal para cimentación.</p>
+<p>También pueden utilizarse en forma de pantalla de micropilotes para: recalzar las estructuras linderas; para permitir la excavación sin apeos, hasta determinada profundidad.
+Se utilizan además, cuando las pantallas tradicionales continuas, o de pilotes de diámetro grande, no se pueden realizar.</p>
+<p>Refuerzo de cimentaciones ya existentes, se emplean en:</p>
+<li>Cuando aumentan las cargas de las cimentaciones existentes.</li>
+<li>Al construir estructuras nuevas, para que no graviten en las cimentaciones.</li>
+<li>Al modificar estructuras ya existentes.</li>
+<li>Cuando el asiento de las cimentaciones a fallado, se usan para cubrir las fallas del terreno, donde </li>
+<li>se apoyan los cimientos que puedan alterarse.</li>
 <div class="row div_img_container">
-  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/175.jpg')"></div>
-  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/182.png'); background-repeat:no-repeat;background-position:center; background-size:cover;"></div>
-  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/mortero.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/073.jpg'); background-repeat:no-repeat;background-position:center; background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/074.jpg'); background-repeat:no-repeat;background-position:center; background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/075.jpg'); background-size:cover;"></div>
 </div>
-<h2 class="titulo_tabla">Servicios que ofrecemos en concretos y morteros</h2>
-<table class="table table-condensed">
-  <thead>
-    <tr>
-      <th style="font-family:Caviar-Dreams-Bold;">CONCRETO</th>
-      <th style="font-family:Caviar-Dreams-Bold;">MORTERO</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Diseño de Mezcla:</td>
-      <td>Diseño completo de mezcla</td>
-    </tr>
-    <tr>
-      <td>Una resistencia (Incluye propiedades físicas completas)</td>
-      <td>Cada resistencia adicional</td>
-    </tr>
-    <tr>
-      <td>Una resistencia (Sin propiedades físicas)</td>
-      <td>Resistencia a la compresión simple de cilindros (3"x6") o cubos</td>
-    </tr>
-    <tr>
-      <td>Cada resistencia adicional</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Verificación de diseño de mezcla</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Resistencia a compresión simple de cilindros con curado normal</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Resistencia a compresión simple de cilindros con curado acelerado</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Resistencia a la flexión de vigas</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Tracción indirecta (Ensayo Brasilero)</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Densidad del concreto (Medida sobre cilindros)</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Evaluacion esclerometrica</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
+</div>
+
+
+
+<!--Extracción de Núcleos -->
+
+<div id="s11" class="info_container">
+<h1>Extracción de Núcleos Y Perforaciones</h1>
+<p>En las construcciones de obras civiles, es común la necesidades de realizar perforaciones para un sin fin de funciones.</p>
+<p>Ingeomac Ltda. Ofrece perforaciones de cualquier diámetro en el material que desee.</p>
+<li>Perforaciones en Hormigón Armados con Brocas Diamantadas de todos los diámetros.</li>
+<li>Perforaciones en losas</li>
+<li>Perforaciones en tabique</li>
+<li>Perforaciones en muro colado</li>
+<div class="row div_img_container">
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/089.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/090.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/nucleos.jpg'); background-size:cover;"></div>
+</div>
+</div>
+
+
+
+<!-- Esclerómetro -->
+
+<div id="s12" class="info_container">
+<h1>Esclerometría</h1>
+<p>El esclerómetro es un instrumento de medición empleado, generalmente, para la determinación de la resistencia a compresión en hormigones ya sea en pilares, muros, pavimentos, etc.</p>
+<p>Su funcionamiento consiste en una pesa tensada con un muelle. Dicha pesa tensada es lanzada contra el hormigón y se mide su rebote.</p>
+<p>Aunque no es un método excesivamente fiable, su uso está muy extendido. Proporciona valores aproximados y se emplea principalmente como método de comprobación, siendo menos usado que el ensayo de compresión.</p>
+<p>En 1950 se diseñó el primer esclerómetro para la medición no destructiva del hormigón. Patentado con el nombre SCHMIDT, su valor de rebote "R" permite medir la dureza de este material. se ha convertido en el procedimiento más utilizado, a nivel mundial, para el control no destructivo en hormigón.</p>
+<div class="row div_img_container">
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/418.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/419.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/420.jpg'); background-size:cover;"></div>
+</div>
 </div>
