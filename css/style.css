@@ -534,7 +534,7 @@ footer ul{
   transition: all linear 0.1s;
 }
 .datos-contacto a:hover{
-  font-family: Caviar-Dreams-Bold; 
+  font-family: Caviar-Dreams-Bold;
   text-decoration: none;
   color: red;
   padding:0.2em 0;

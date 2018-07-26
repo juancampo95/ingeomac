@@ -1,1 +1,104 @@
-@import "./style.css";
+body{
+  background-color: rgb(238, 238, 238);
+}
+.nav-link{
+  display: flex!important;
+}
+.nav-link svg{
+  margin: 0em 0.3em;
+}
+.btn-navs{
+  height: 60px!important;
+  padding: 1em 3em!important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Caviar-Dreams-Bold;
+}
+.btn-navs svg{
+  margin-right:0.5em;
+}
+.sidebar-admin{
+  position: fixed;
+  height: 100%;
+  background-color: #e60000!important;
+}
+.sidebar-admin ul{
+  list-style: none;
+  padding: 0;
+}
+.sidebar-sticky {
+  height: 100%;
+}
+.sidebar-sticky hr{
+  margin:3em auto 1em auto;
+  background-color:  white;
+  border-top: 1px solid rgb(255, 255, 255);
+}
+.sidebar-admin li{
+  text-decoration: none;
+  color: white;
+  padding:0.8em 1em;
+  transition: all linear 0.2s;
+  font-family: Caviar-Dreams-Bold;
+}
+
+.sidebar-admin li:hover{
+    background-color: #ff0505!important;
+
+}
+.logos_admin img{
+  width: 70%;
+}
+.logos_admin{
+  padding:3em 0 0 0;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  text-align: center;
+}
+.h2_title{
+  margin:1em auto;
+  text-align: center;
+    font-family: Caviar-Dreams-Bold;
+    font-size: 2em;
+}
+.info_admin{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  background-color: white;
+}
+.form-control1{
+  display: flex;
+  flex-flow: row nowrap;
+  width: 60%;
+  margin-bottom: 0px;
+}
+.form-control1 select{
+  margin: 6px!important;
+  height: 60px!important;
+  border:2px solid white;
+  border-radius: 0!important;
+  background-color: red;
+  color: white;
+  font-weight: bolder;
+  font-family:font-family: Caviar-Dreams-Bold!important;
+}
+.nav-clientes{
+  background-color: red;
+  padding: 1.2em 2em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row;
+  font-family:Caviar-Dreams-Bold;
+}
+.global-contenedor{
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
