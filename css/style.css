@@ -5,8 +5,9 @@
 a{	font-family: Caviar-Dreams-Bold;}
 .btn-danger {
   color: #fff;
-  background-color: #E60000!important;
-  border-color: #E60000!important;
+  background-color: red!important;
+  border: 2px solid red!important;
+  font-family: Caviar-Dreams-Bold;
 }
 .danger-color{
   color: #fff;
@@ -145,6 +146,16 @@ a{	font-family: Caviar-Dreams-Bold;}
     top: 15px;
     right: 20px;
   }
+}
+.btn-white2{
+  border:2px solid red;
+  background: white;
+  color: red!important;
+   font-family: Caviar-Dreams-Bold!important;
+}
+.btn-white{
+  color: red!important;
+  font-family: Caviar-Dreams-Bold!important;
 }
 /* CIERRE NAVBAR STYLE */
 

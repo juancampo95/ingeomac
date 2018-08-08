@@ -1,6 +1,8 @@
+
 body{
   background-color: rgb(238, 238, 238);
 }
+
 .nav-link{
   display: flex!important;
 }
@@ -42,7 +44,12 @@ body{
   transition: all linear 0.2s;
   font-family: Caviar-Dreams-Bold;
 }
-
+.tabActive{
+  background-color: #A70000;
+}
+.form-row{
+    font-family: Caviar-Dreams-Bold;
+}
 .sidebar-admin li:hover{
     background-color: #ff0505!important;
 
@@ -59,12 +66,12 @@ body{
 }
 .h2_title{
   margin:1em auto;
-  text-align: center;
+  text-align: left;
     font-family: Caviar-Dreams-Bold;
     font-size: 2em;
 }
 .info_admin{
-  width: 90%;
+  width: 97%;
   display: flex;
   justify-content: center;
   flex-flow: column wrap;
@@ -84,13 +91,32 @@ body{
   background-color: red;
   color: white;
   font-weight: bolder;
-  font-family:font-family: Caviar-Dreams-Bold!important;
+  font-family:Caviar-Dreams-Bold!important;
+}
+.form-control1 input{
+  margin: 6px!important;
+  height: 60px!important;
+  border:2px solid white;
+  border-radius: 0!important;
+  background-color: red;
+  color: white!important;
+  font-weight: bolder;
+  font-family: Caviar-Dreams-Bold!important;
+}
+.form-control1 input::placeholder{
+  color: #FFC1C1!important;
+}
+.form-control1 input:focus{
+  color: white!important;
+  background-color: #D40000;
+  box-shadow: none!important;
+  border: 2px solid white !important;
 }
 .nav-clientes{
   background-color: red;
   padding: 1.2em 2em;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row;
   font-family:Caviar-Dreams-Bold;
@@ -101,4 +127,100 @@ body{
   flex-flow: column wrap;
   align-items: center;
   text-align: center;
+}
+.list-items-admin{
+  cursor: pointer;
+}
+.table_clientes td{
+  font-size: 1em!important;
+  vertical-align: inherit!important;
+  padding: 0!important;
+ 
+}
+.table_clientes td.left{
+  text-align: left;
+  padding-left: 2em!important;
+}
+.table th {
+    font-size: 1rem;
+    font-weight: bold !important;
+}
+.bg-gris{
+  background-color: #F6F6F6;
+}
+.tipo_title{
+  margin: 1em auto 0.5em 1em;
+  text-align: left;
+  color: #424242;
+  font-family: Caviar-Dreams-Bold;
+  font-size: 1.2em;
+}
+.hr_tabla{
+  border-top: 2px solid #5B5B5B;
+  width: 98%;
+  text-align: left;
+  margin-left: 1em;
+  margin-bottom: 0;
+}
+/* modal style */
+
+.modal-header{
+  background-color: red;
+  color: white;
+}
+.close {
+    color: #fff;
+    opacity: 1;
+}.close:hover {
+    color: #BEBEBE;
+    opacity: 1;
+}
+.modal-title{
+   font-family: Caviar-Dreams-Bold;
+}
+.subtitle_modal{
+  text-align: center;
+  color: red;
+}
+.md-form label{
+  font-size: 1em!important;
+  margin-top: 0.3em;
+}
+.md-form {
+  font-size: 1em!important;
+  margin: 2em auto!important;
+}
+.md-form svg{
+  font-size: 1em!important;
+  margin-top: 0.3em;
+  color:red;
+}
+.modal-footer{
+  justify-content: center;
+  flex-flow: column wrap;
+}
+.modal-body{
+  padding: 3em 2em!important;
+}
+.trash-btn{
+  align-self: flex-end;
+}
+.mbd-select{
+    margin-left:2em!important;
+    width: 90%;
+    border: none!important;
+    border-bottom: 1px solid #ccc!important;
+  }
+  .select_label{
+     top: -23px!important;
+  }
+  .file_input{
+    border: none!important;
+  }
+  .file_input input{
+    background-color: red;
+    border: none!important;
+  }
+.oculto{
+  display: none;
 }

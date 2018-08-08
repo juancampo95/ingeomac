@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" ng-app="ingeo_app">
 <head>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Administración Ingeomac</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/mdb.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/admin.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/functions/clientes.js"></script>
+	<script src="js/functions/docs.js"></script>
 </head>
-<body>
+<body >
 	<nav class="navbar navbar-expand-lg fixed-top navbar-dark black z-depth-4">
 	    <a class="navbar-brand" href="#">Administración Ingeomac  </a>
 	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
@@ -26,3 +29,4 @@
 	        </ul>
 	    </div>
 	</nav>
+
