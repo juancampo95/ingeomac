@@ -32,6 +32,7 @@
             </div>
       </div>
 </footer>
+
 <div class="col-12 text-center text-xs-center pt-2 copyright" style="font-size: 14px;">
   <p>Desarrollo y Diseño web 2018 por</p>
   <img width="200" src="images/multir-blanco-02.svg" alt="">

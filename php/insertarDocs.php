@@ -8,7 +8,7 @@
 			parent::__construct();
 			
 			if(!empty($_FILES)){
-
+				
 				$ext = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 				$formato;
 				if($ext == "pdf"){

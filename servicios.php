@@ -1,6 +1,6 @@
 <?php include("nav.php") ?>
 
-<header class="container-fluid header us-header" style="background-image: url('images/Servicios.jpg');">
+<div class="fondo_absolute" style="background-image: url('images/Servicios.jpg');"></div>
   <div class="container callToAction section-rojo flotante margin_servicios">
     <h2>Servicios</h2>
     <div class="row us-inicio img_servicios">
@@ -19,8 +19,7 @@
       </div>
     </div>
   </div>
-</header>
-<div class="white-space-services"></div>
+
 <div class="container info-nosotros margin_info">
   <h2 class="mb-5">Nuestros Servicios</h2>
 </div>

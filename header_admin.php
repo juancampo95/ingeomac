@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="es" ng-app="ingeo_app">
 <head>
@@ -5,6 +7,7 @@
   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Administración Ingeomac</title>
+	<link rel="icon" type="image/png" href="images/favicon.png" />
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/mdb.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -16,15 +19,15 @@
 <body >
 	<nav class="navbar navbar-expand-lg fixed-top navbar-dark black z-depth-4">
 	    <a class="navbar-brand" href="#">Administración Ingeomac  </a>
-	    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02"
-	        aria-expanded="false" aria-label="Toggle navigation">
-	        <span class="navbar-toggler-icon"></span>
-	    </button>
+
 
 	    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 	        <ul class="navbar-nav ml-auto mt-lg-0">
+	        	<li>
+	        	<i style="color: white;" data-feather="user"></i> <a class="navbar-brand" href="#"><?php echo utf8_encode($sesion_admin->empleado); ?></a>
+	        	</li>
 	            <li class="nav-item active ">
-	                <a class="nav-link" href="#"><i data-feather="log-out"></i>	Cerrar sesión <span class="sr-only" >(current)</span></a>
+	                <a class="nav-link" href="php/sesion_destroy.php"><i data-feather="log-out"></i>	Cerrar sesión <span class="sr-only" >(current)</span></a>
 	            </li>
 	        </ul>
 	    </div>

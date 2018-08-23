@@ -6,6 +6,7 @@
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Ingeomac Ltda</title>
 	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="icon" type="image/png" href="images/favicon.png" />
 	<link rel="stylesheet" href="css/mdb.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -39,14 +40,11 @@
 						<a target="_blank" href="https://api.whatsapp.com/send?phone=573155275724"><img src="images/rrss/whatsappwhite.svg"></a>
 					</div>
 					<a class="links waves-effect" href="index.php">Inicio</a>
-					<a class="links waves-effect nav-link linksDrop" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Servicios Web</a>
-						<div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-							<a class="links waves-effect linksDropinner" href="#">Consulta de informes</a>
-							<a class="links waves-effect linksDropinner" href="#">Actualización de datos</a>
-						</div>
+					<a class="links waves-effect" href="web_services.php">Servicios web</a>
 					<a class="links waves-effect" href="nosotros.php">Nosotros</a>
 					<a class="links waves-effect" href="servicios.php">Servicios</a>
-					<a class="links waves-effect" href="contacto.php">Contacto</a>
+					<a class="links waves-effect" href="contacto.php">Contácto</a>
+					<a class="links waves-effect" href="admin_dash.php">Aministración</a>
 					<a class="navbar-brand logo_menu2" href="index.php"><img src="images/LogoVeritas.svg" alt="logo"> </a>
 				</div>
 			</div>

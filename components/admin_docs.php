@@ -13,22 +13,20 @@
     <table class="table table_clientes">
       <thead>
         <tr>
-          <th>No°</th>
-          <th>Fichero</th>
-          <th >Id de Obra</th>
-          <th>Fecha de subida</th>
-          <th></th>
+          <th width="30%">Fichero</th>
+          <th width="25%">Id de Obra</th>
+          <th width="25%">Fecha de subida</th>
+          <th width="20%"></th>
         </tr>
       </thead>
       <tbody>
         <tr ng-repeat="doc in docs | filter:searchObra | orderBy:''" ng-show="doc.type_doc == 'densidades'">
-          <td >{{$index+1}}</td>
           <td class="left" title="{{doc.name_docs}}"><img width="15" src="../ingeomac/images/formatos/{{doc.formato_docs}}" alt=""> {{doc.name_docs}}</td>
           <td  title="{{doc.obra_id_docs}}">{{doc.obra_id_docs}}</td>
           <td>{{doc.create_date_docs|date:'dd-MM-yyyy HH:mm:ss'}}</td>
-          <td>
+          <td class="text-right pg-right">
             <a href="php/upload/{{doc.name_docs}}" download><button class="btn btn-success btn-sm"><i data-feather="download"></i></button></a> 
-            <button class="btn btn-danger btn-sm"> <i data-feather="trash-2"></i></button>           
+            <button class="btn btn-danger btn-sm" ng-click="eliminarDocs(doc.id_docs)"><i data-feather="trash-2"></i></button>          
           </td>
         </tr>        
 
@@ -41,24 +39,22 @@
     <table class="table table_clientes bg-gris">
       <thead>
         <tr>
-          <th>No°</th>
-          <th>Fichero</th>
-          <th >Id de Obra</th>
-          <th>Fecha de subida</th>
-          <th></th>
+          <th width="30%">Fichero</th>
+          <th width="25%" >Id de Obra</th>
+          <th width="25%">Fecha de subida</th>
+          <th width="20%"></th>
         </tr>
       </thead>
       <tbody>
         <tr ng-repeat="doc in docs | filter:searchObra | orderBy:''" ng-show="doc.type_doc == 'proctor_mod'">
-          <td >{{$index+1}}</td>
           <td class="left" title="{{doc.name_docs}}">
             <img width="15" src="../ingeomac/images/formatos/{{doc.formato_docs}}" alt=""> {{doc.name_docs}}
           </td>
           <td title="{{doc.obra_id_docs}}">{{doc.obra_id_docs}}</td>
           <td>{{doc.create_date_docs|date:'dd-MM-yyyy HH:mm:ss'}}</td>
-          <td>
+          <td class="text-right pg-right">
             <a href="php/upload/{{doc.name_docs}}" download><button class="btn btn-success btn-sm"><i data-feather="download"></i></button></a> 
-            <button class="btn btn-danger btn-sm" ng-click="eliminar('reportes')"><i data-feather="trash-2"></i></button>           
+            <button class="btn btn-danger btn-sm" ng-click="eliminarDocs(doc.id_docs)"><i data-feather="trash-2"></i></button>           
           </td>
         </tr>        
 
@@ -109,8 +105,8 @@
                     <div class="col-xs-12 col-md-12">
                         <div class="md-form">
                             <i data-feather="upload" class="prefix"></i>
-                            <input placeholder=" " type="file" id="doc_file" class="form-control file_input" file-input="files" area-describedby="max-size">
-                              <small id="max-size" class="form-text text-muted">Peso máximo soportado 2MB.
+                            <input ng-model="file_input" placeholder=" " type="file" id="doc_file" class="form-control file_input" file-input="files" area-describedby="max-size">
+                              <small id="max-size" class="form-text text-muted">Peso máximo soportado 10MB.
                             </small>
                         </div>
                     </div>

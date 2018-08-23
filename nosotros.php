@@ -1,6 +1,7 @@
 <?php include("nav.php") ?>
 
-<header class="container-fluid header us-header" style="background-image: url('images/Nosotros.jpg');">
+<div class="fondo_absolute" style="background-image: url('images/Nosotros.jpg');"></div>
+
   <div class="container callToAction section-rojo flotante margin_nosotros">
     <h2>¿Quiénes Somos?</h2>
     <div class="row us-inicio">
@@ -18,8 +19,7 @@
         <a target="new_blank" href="https://www.facebook.com/etniaropadeportiva/"><img src="images/rrss/twitterwhite.svg"></a>
       </div>
   </div>
-</header>
-<div class="white-space"></div>
+
 <div class="container info-nosotros">
   <h2 class="mb-4">Presentación de la firma</h2>
   <p>INGEOMAC LTDA es una empresa colombiana, creada con la misión de suministrar una amplia gama de servicios en ingeniería, contribuyendo así con el desarrollo del país y el mejoramiento de la calidad de vida de sus habitantes.</p>
