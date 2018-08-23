@@ -10,7 +10,7 @@
 			parent::__construct();
 			$data = json_decode(file_get_contents("php://input"));
 
-			if(count($data)>0){
+			if(isset($data)>0){
 				$username = mysqli_real_escape_string($this->conexion,$data->username);
 				$pass = mysqli_real_escape_string($this->conexion,$data->pass);
 				
@@ -25,7 +25,10 @@
 					echo "correcto";
 				}else{	
 					echo "Los datos son incorrectos";
+					echo "no funcionó" . mysqli_error($this->conexion);
 				}
+			}else{
+				echo "no funcionó" . mysqli_error($this->conexion);
 			}
 		}
 

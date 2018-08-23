@@ -10,7 +10,7 @@
 			parent::__construct();
 			$data = json_decode(file_get_contents("php://input"));
 
-			if(count($data)>0){
+			if(isset($data)>0){
 				$email = mysqli_real_escape_string($this->conexion,$data->email);
 				$pass = mysqli_real_escape_string($this->conexion,$data->obra_id);
 				

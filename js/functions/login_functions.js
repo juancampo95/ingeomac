@@ -32,6 +32,7 @@ app.controller('login_controller', function($scope,$http,$window){
 					if(i==10){$window.location.href = '../ingeomac/admin_dash.php';}
 				}
 			}else{
+				console.log(response);
 				$scope.respuesta = 'Datos incorrectos, por favor intente nuevamente.';
 				$scope.advise = {display:"block",color:"red"}
 			}

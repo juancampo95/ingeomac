@@ -55,13 +55,13 @@
   <script>
 	var slidesNumber = 3;
 	var tamaño = window.innerWidth;
-	var porcentaje = "500px";
+	var porcentaje = "400px";
 	if(tamaño <= 790){
 		porcentaje = "100%";
 	  slidesNumber = 1;
 		document.getElementById("img_mapa").src ="images/MapaProcesosNuevoCel.svg";
 	}else{
-		porcentaje = "500px";
+		porcentaje = "400px";
 		slidesNumber = 3;
 	}
   function openNav() {
