@@ -11,6 +11,7 @@
     <table class="table table_clientes">
       <thead>
         <tr>
+          <th>No</th>
           <th>Id de Obra</th>
           <th >Nombre de obra</th>
           <th >Constructora</th>
@@ -20,6 +21,7 @@
       </thead>
       <tbody>
         <tr  ng-repeat="cliente in clientes | filter:searchCliente | orderBy:'fullname'">
+          <td class="left">{{$index+1}}</td>
           <td>{{cliente.obra_id}}</td>
           <td  title="{{cliente.obra}}">{{cliente.obra}}</td>
           <td  title="{{cliente.company}}">{{cliente.company}}</td>
@@ -45,7 +47,7 @@
 
 
       <div class="modal-content">
-            <form>
+        <form>
         <div class="modal-header">
 
           <h4 align="center" class="modal-title w-100" id="myModalLabel">{{modalTitle}}</h4>
@@ -60,7 +62,7 @@
                     <div class="col-xs-12 col-md-6">
                         <div class="md-form">
                             <i data-feather="edit-3" class="prefix"></i>
-                            <input placeholder=" " type="number" id="obra_id" class="form-control" name="obra_id" ng-model="obra_id">
+                            <input placeholder=" " type="number" id="obra_id" class="form-control" name="obra_id" ng-model="obra_id" >
                             <label for="obra_id">ID de la obra*</label>
                         </div>                    
                     </div>

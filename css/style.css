@@ -47,8 +47,7 @@ a{	font-family: Caviar-Dreams-Bold;}
     z-index: 5;
     top: 0;
     right: 0;
-    background-color: rgb(0,0,0);
-    background-color: #E60000EE!important;
+    background-color: #E60000!important;
     overflow-x: hidden;
     transition: 0.5s;
     box-shadow: 0 0 3px 0px rgba(0, 0, 0, 0.5);
@@ -377,20 +376,18 @@ footer ul{
 /* CIERRE DE FOOTER */
 /* Nosotros */
 .flotante{
-  position: absolute;
-  z-index: 3;
   height: auto;
   padding: 4em 0em 0em 0em;
   box-shadow: 0px 1px 9px 4px rgba(0, 0, 0, 0.3);
 }
 .margin_nosotros{
-  margin-top: 500px;
+  margin-top: 200px;
 }
 .margin_contacto{
-  margin-top: 350px;
+  margin: 100px auto;
 }
 .margin_servicios{
-  margin-top: 610px;
+  margin-top: 100px;
 }
 .us-header{
   justify-content: center!important;
@@ -419,16 +416,13 @@ footer ul{
   width: 60px;
   padding: 0.5em;
 }
-.white-space{
-  width: 100%;
-  height: 500px;
-}
+
 @media (max-width:990px){
   .margin_nosotros{
-    margin-top: 950px;
+    margin-top: 0;
   }
   .margin_contacto{
-    margin-top: 250px;
+    margin-top: 0px;
   }
   .us-inicio{
     padding: 0;
@@ -440,17 +434,14 @@ footer ul{
     padding: 1em;
     text-align: center;
   }
-  .white-space{
-    width: 100%;
-    height: 980px;
-  }
+
 }
 @media (max-width:400px){
   .margin_nosotros{
-    margin-top: 900px;
+    margin-top: 0px;
   }
   .margin_contacto{
-    margin-top: 200px;
+    margin-top: 20px;
   }
   .barra{
     border-right:none!important;
@@ -473,11 +464,7 @@ footer ul{
     padding: 1em;
   }
 }
-@media (max-width:380px){
-  .margin_nosotros{
-    margin-top: 980px;
-  }
-}
+
 .info-nosotros{
     padding:3em 1em;
 }
@@ -489,11 +476,7 @@ footer ul{
 /*CIERRE Nosotros */
 
 /*INICIO Contacto*/
-.red-space{
-  width: 100%;
-  height: 400px;
-  background-color: #E60000;
-}
+
 .info-contacto{
     padding:2em 1em;
 }
@@ -505,12 +488,7 @@ footer ul{
   text-align: center;
   font-family: Caviar-Dreams-Bold;
 }
-@media (max-width:990px){
-  .red-space{
-    width: 100%;
-    height: 250px;
-  }
-}
+
 .parrafos-contacto{
 	text-align: center;
 	margin: 0 auto!important;
@@ -534,9 +512,7 @@ footer ul{
 .pd-form{
   padding: 3em !important;
 }
-@media (max-width:400px){
 
-}
 .datos-contacto a{
   font-family: Caviar-Dreams;
   text-decoration: none;
@@ -561,9 +537,7 @@ footer ul{
   padding-left: 3em;
   margin-top: 1em;
 }
-.margin_info{
-  margin-top: 200px;
-}
+
 .img_servicios img{
   padding: 4em 4em 4em 4em;
   width: 100%;
@@ -582,7 +556,7 @@ footer ul{
 }
 @media (max-width:990px){
   .margin_servicios{
-    margin-top: 800px;
+    margin-top: 20px;
   }
   .img_servicios img{
     padding: 0;
@@ -600,7 +574,7 @@ footer ul{
 }
 @media (max-width:780px){
   .margin_servicios{
-    margin-top: 880px;
+    margin-top: 20px;
   }
   .parrafo-servicios p{
     padding: 1em;
@@ -615,17 +589,11 @@ footer ul{
   .img_servicios img{
     width: 80%;
   }
-  .white-space-services{
-    height: 850px;
-  }
+
 }
 @media (max-width:380px){
-  .margin_servicios{
-    margin-top: 745px;
-  }
-  .white-space-services{
-    height: 750px;
-  }
+
+
   .parrafo-servicios p{
     padding: 1em;
     text-align: center;
@@ -724,3 +692,47 @@ footer ul{
   font-family: Caviar-Dreams-Bold;
 }
 /*CIERRE Servicios*/
+/* Login clientes */
+.fondo_login_rojo{
+  position: absolute;
+  z-index: -1;
+  background-color: red;
+  height: 400px;
+  width: 100%;
+  top: 111px;
+  left: 0;
+}
+.full-container{
+  text-align: center;
+  color: white;
+    font-family: Caviar-Dreams-Bold;
+}
+.full-container h1{
+  margin: 1em auto;
+}
+.form-container{
+  background-color: white;
+  color: black;
+  padding: 5rem;
+}
+.inputs-margin{
+  margin: 3em auto;
+}
+.foto_left{
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* Login clientes  CIERRE*/
+.fondo_absolute{
+  position: absolute;
+  z-index: -1;
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  top: 111px;
+  left: 0;
+}

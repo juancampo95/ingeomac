@@ -1,6 +1,6 @@
 <?php include("nav.php") ?>
 
-<header class="container-fluid header us-header" style="background-image: url('images/Contacto.jpg');">
+<div class="fondo_absolute" style="background-image: url('images/Contacto.jpg');"></div>
   <div class="container callToAction section-blanco flotante barra margin_contacto">
     <h2 class="textobarra">Contáctenos</h2>
     <div class="row us-inicio">
@@ -42,8 +42,6 @@
       </div>
     </div>
   </div>
-</header>
-<div class="red-space"></div>
 <div class="container-fluid section-rojo">
   <div class="container section-rojo info-contacto">
     <h2>Datos de Contacto</h2><br>

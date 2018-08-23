@@ -97,17 +97,11 @@ app.controller('general_admin', function($scope,$http){
 		$scope.mostrar.display = "none";
 		$scope.DeleteIcon.display = 'inline-block';
 	}
-	$scope.eliminar = function(i){
-		var url_Datos;
-		if(i=='reportes'){
-			var url_Datos = '../ingeomac/php/eliminarDocs.php';
-		}else{
-			var url_Datos = '../ingeomac/php/eliminarObra.php';
-		}
+	$scope.eliminar = function(){
 		if(confirm("estas seguro de eliminar el cliente?")){
 			$http({
 				method:'POST',
-				url:url_Datos,
+				url:'../ingeomac/php/eliminarObra.php',
 				data :{'id':$scope.id}
 			}).then (function successCallback(response){
 				$scope.mostrarClientes();
@@ -122,6 +116,7 @@ app.controller('general_admin', function($scope,$http){
 // SCRIPTS DE CLIENTES CIERRE
 
 // SCRIPTS DE DOCS
+	
 	$scope.files = [];
 
 	$scope.btnNameDoc = "Cargar reporte";
@@ -159,9 +154,31 @@ app.controller('general_admin', function($scope,$http){
 	 		}
 	 	}).then(function successCallback(response){
 	 		console.log("successfully" + response.data);
+	 		$scope.file_input = null;
+	 		$scope.obra_doc = null;
+	 		$scope.type_doc = null;
 	 		$scope.mostrarDocs();
 	 	});
 
+	}
+	$scope.eliminarDocs = function(i){
+		
+		console.log(i);
+		if(confirm("estas seguro de eliminar el cliente?")){
+			$http({
+				method:'POST',
+				url:'../ingeomac/php/eliminarDocs.php',
+				data :{'id':i}
+			}).then (function successCallback(response){
+				$scope.mostrarClientes();
+				console.log(response);
+				$scope.mostrarDocs();
+			},function errorCallback(response){
+				alert("vuelve a intentar");
+			});
+		}else{
+			return false;
+		}
 	}
 	// SCRIPTS DE DOCS CIERRE
 });

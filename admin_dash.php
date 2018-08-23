@@ -1,4 +1,10 @@
-<?php include("header_admin.php"); ?>
+<?php 
+	require("php/validacion_admin.php");
+	$sesion_admin = new Validacion('users');
+	
+	include("header_admin.php");
+?>
+
 
 <div ng-controller="general_admin" style="margin-top:55px;" class="container-fluid">
 	<div class="row">
@@ -9,8 +15,8 @@
 					<a class="navbar-brand" href="#"><img src="images/LogoVeritas.svg" alt="logo"> </a>
 				</div>
 				<hr>
-				<ul ng-init="tab=2" class="nav flex-column">
-					<li ng-class="{tabActive:tab===1}" ng-click="tab = 1" class="list-items-admin"><i data-feather="user"></i>Clientes</li>
+				<ul ng-init="tab=1" class="nav flex-column">
+					<li ng-class="{tabActive:tab===1}" ng-click="tab = 1" class="list-items-admin"><i data-feather="user"></i>Obras</li>
 					<li ng-class="{tabActive:tab===2}" ng-click="tab = 2" class="list-items-admin"><i data-feather="file-text"></i>Informes</li>
 				</ul>
 			</div>
@@ -20,6 +26,19 @@
 				<?php include("components/admin_clientes.php") ?>
 				<?php include("components/admin_docs.php") ?>
 
+        </main>
+		
+        
+        <main  role="main" class="col-md-12 col-lg-10 ml-sm-auto  px-4" > 
+	        <div class="row">
+	            <div class="col-12 text-md-right text-xs-center mt-4 " style="font-size: 14px;">
+	                <p>Todos los derechos reservados ®copyright 2019 Ingeomac.
+	                </p>
+	                <hr style="border-top: 2px solid rgba(0, 0, 0, 0.8);">
+	                <p>Desarrollo y Diseño web 2018 Multiractiva Agencia de Diseño Digitalbr<br>Contacto: ceo@multiractiva.com </p>
+	                <img width="200" src="images/logomultir_negro.png" alt="">
+	            </div>
+	        </div>
         </main>
       </div>
     </div>
