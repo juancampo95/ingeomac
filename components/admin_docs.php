@@ -14,9 +14,9 @@
       <thead>
         <tr>
           <th width="30%">Fichero</th>
-          <th width="25%">Id de Obra</th>
+          <th width="20%">Id de Obra</th>
           <th width="25%">Fecha de subida</th>
-          <th width="20%"></th>
+          <th width="25%"></th>
         </tr>
       </thead>
       <tbody>
@@ -40,9 +40,9 @@
       <thead>
         <tr>
           <th width="30%">Fichero</th>
-          <th width="25%" >Id de Obra</th>
+          <th width="20%" >Id de Obra</th>
           <th width="25%">Fecha de subida</th>
-          <th width="20%"></th>
+          <th width="25%"></th>
         </tr>
       </thead>
       <tbody>

@@ -61,7 +61,7 @@ var swiper = new Swiper('.swiper-container', {
   },
 });
 </script>
-<script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+<script src="js/feather.min.js"></script>
 <script>
   feather.replace()
 </script>

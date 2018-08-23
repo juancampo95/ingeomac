@@ -132,10 +132,11 @@ body{
   cursor: pointer;
 }
 .table_clientes td{
-  font-size: 1em!important;
+  font-size: 13px!important;
   vertical-align: inherit!important;
   padding-top: 0 !important;
   padding-bottom: 0 !important;
+  font-family: Caviar-Dreams-Bold;
  
 }
 .table_clientes td.left{
