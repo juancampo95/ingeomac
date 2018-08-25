@@ -6,12 +6,12 @@
 		public function __construct($tabla){
 			parent::__construct();
 
-			if(isset($_SESSION['email_service'])){
-				$email = $_SESSION['email_service'];
+			if(isset($_SESSION['username_service'])){
+				$username = $_SESSION['username_service'];
 				$obra = $_SESSION['passw_service'];
 
 				$salida = array();
-				$query  = "SELECT * FROM $tabla WHERE email = '$email' and obra_id = '$obra'";
+				$query  = "SELECT * FROM $tabla WHERE username = '$username' and obra_id = '$obra'";
 				$result = mysqli_query($this->conexion,$query);
 
 				if(mysqli_num_rows($result)>0){

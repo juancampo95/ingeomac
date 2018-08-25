@@ -44,7 +44,7 @@
   </div>
 <div class="container-fluid section-rojo">
   <div class="container section-rojo info-contacto">
-    <h2>Datos de Contacto</h2><br>
+    <h2>Datos de Contácto</h2><br>
     <p class="text-center">En INGEOMAC LTDA estamos comprometidos con la prestación de un servicio de calidad, es por eso que estamos siempre atentos a cualquier tipo de comunicación que nuestros clientes quieran tener con nosotros, debido a eso tenemos distintos canales y medios por los cuales nos podemos  comunicar.</p>
   </div>
   <article class="container callToAction section-rojo ">

@@ -49,6 +49,9 @@ app.controller('servicios', function($scope,$http){
 			$scope.phone = parseInt($scope.dCliente.phone);
 			$scope.cellphone = parseInt($scope.dCliente.cellphone);
 			$scope.correo = $scope.dCliente.email;
+			$scope.username = $scope.dCliente.username;
+
+			
 
 		}, function errorCallback(respuesta){
 			console.log("failed" + respuesta);
@@ -63,6 +66,7 @@ app.controller('servicios', function($scope,$http){
 			"fullname" : $scope.encargado,
 			"cellphone" : $scope.cellphone,
 			"correo" : $scope.correo,
+			"username" : $scope.username,
 			"fecha_actual" : new Date()
 		};
 		$http({

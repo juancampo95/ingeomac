@@ -21,7 +21,7 @@ app.controller('login_S_controller', function($scope,$http,$window){
 				'ContentType' : 'application/x-www-form-urlencoded'
 			},
 			data: {
-				'email' : $scope.email,
+				'username' : $scope.username,
 				'obra_id' : $scope.contrasena
 			}
 		}).then(function(response){

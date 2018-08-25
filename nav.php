@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Ingeomac Ltda</title>
+	<meta name="description" content="Somos un laboratorio de concretos mortero y grouting, suelos, pavimentos, mezcla asfáltica, mampostería estructural, ensayos químicos, patología de estructuras, agregados pétreos, tensión y elongación, extracción de núcleos, exclerómetro ubicados en la ciudad de cali, valle del cauca, colombia">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 	<link rel="stylesheet" href="css/mdb.css">
@@ -24,7 +25,7 @@
       <div class="collapse navbar-collapse toggle-lines" id="basicExampleNav">
 				<div class="nav-contact">
 					<h4>Contácto</h4>
-					<h5>373 3707</h5>
+					<a href="tel:+5723733707" target="_blank"><h5>(2) 373 3707</h5></a>
 				</div>
         <a href="javascript:void(0)" class="closebtn" onclick="openNav()"><span class="navbar-toggler-icon"></span></a>
       </div>

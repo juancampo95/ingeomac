@@ -10,8 +10,8 @@
 			<h2>Servicios Web</h2>
 			<p>Aquí en Ingeomac LTDA siempre pensamos en nuestros clientes y como mejorar la atención y los servicios ofrecidos. Es por esta razón que renovamos nuestro sitio web y aprovechamos la nuevas tecnologías para hacerla dinámica y funcional. Brindando dos la consulta de informes de manera online y la actualización de los datos personales para facilitar el contácto.</p>
 			<div>
-				<a class="btn btn-danger btn-lg img-after" href="#">Consultar Informes</a>
-				<a class="btn btn-grey btn-lg img-after" href="#">Actualizar Datos</a>
+				<a class="btn btn-danger btn-lg img-after" href="./web_services.php">Consultar Informes</a>
+				<a class="btn btn-grey btn-lg img-after" href="./web_services.php">Actualizar Datos</a>
 			</div>
 		</article>
 	</section>
@@ -20,7 +20,7 @@
 			<h2>Conoce sobre nosotros	</h2>
 			<div class="row p-container">
 				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">
-					<p>Contamos con 15 años de experiencia en el mercado.</p>
+					<p>Contamos con más de 17 años de experiencia en el mercado.</p>
 				</div>
 				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">
 					<p>Le permitimos conocer con exactitud la calidad de sus materiales.</p>

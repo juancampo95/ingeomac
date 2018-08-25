@@ -17,6 +17,7 @@ app.controller('general_admin', function($scope,$http){
 		$scope.phone = null;
 		$scope.cellphone = null;
 		$scope.correo = null;
+		$scope.username = null;
 		$scope.fecha_creacion = "Aun no se ha creado";
 		$scope.fecha_modificacion = "Aun no se ha modificado";
 		$scope.modalTitle ="Nueva Obra Ingeomac";
@@ -34,6 +35,8 @@ app.controller('general_admin', function($scope,$http){
 			alert("Ingrese el nombre de la constructora");
 		}else if($scope.encargado == null){
 			alert("Ingrese el nombre de la persona responsable de la obra");
+		}else if($scope.username == null){
+			alert("Ingrese el username de la obra");
 		}else if($scope.correo == null){
 			alert("Ingrese el correo electrónico el responsable de la obra");
 		}else{
@@ -50,6 +53,7 @@ app.controller('general_admin', function($scope,$http){
 					'phone' : $scope.phone,
 					'cellphone' : $scope.cellphone,
 					'correo' : $scope.correo,
+					'username' : $scope.username,
 					'btnName' : $scope.btnName,
 					'fecha_actual' : $scope.fechaActual = new Date(),
 					'id' : $scope.id
@@ -64,6 +68,7 @@ app.controller('general_admin', function($scope,$http){
 				$scope.phone = null;
 				$scope.cellphone = null;
 				$scope.correo = null;
+				$scope.username = null;
 				$scope.mostrarClientes();
 			});
 		}
@@ -80,13 +85,14 @@ app.controller('general_admin', function($scope,$http){
 			console.log("failed" + response);
 		});
 	}
-	$scope.actualizarCliente = function(id,fullname,company,phone,cellphone,email,obra_id,obra,fecha_creacion,fecha_modificacion){
+	$scope.actualizarCliente = function(id,fullname,company,phone,cellphone,email,username,obra_id,obra,fecha_creacion,fecha_modificacion){
 		$scope.id = id;
 		$scope.encargado = fullname;
 		$scope.constructora = company;
 		$scope.phone = parseInt(phone);
 		$scope.cellphone = parseInt(cellphone);
 		$scope.correo = email;
+		$scope.username = username;
 		$scope.obra_id = parseInt(obra_id);
 		$scope.obra = obra;
 		$scope.fecha_creacion = fecha_creacion;

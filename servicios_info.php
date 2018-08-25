@@ -11,7 +11,7 @@ Tomado de la norma NTC 673</p>
   <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/182.png'); background-repeat:no-repeat;background-position:center; background-size:cover;"></div>
   <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/mortero.jpg'); background-size:cover;"></div>
 </div>
-<h2 class="titulo_tabla">Servicios que ofrecemos en concretos y morteros</h2>
+<h2 class="titulo_tabla">Servicios que ofrecemos en concretos, morteros y grouting</h2>
 <table class="table table-condensed">
   <thead>
     <tr>

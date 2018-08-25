@@ -13,8 +13,8 @@
 					<h3>Ingresa tus datos</h3>
 					 <div class="md-form inputs-margin">
 	                    <i data-feather="user" class="prefix"></i>
-	                    <input  type="text" id="email" class="form-control" name="email" ng-model="email">
-	                    <label for="email">Usuario</label>
+	                    <input  type="text" id="username" class="form-control" name="username" ng-model="username">
+	                    <label for="username">Usuario</label>
 	                 </div>  
 					 <div class="md-form inputs-margin">
 	                    <i data-feather="user" class="prefix"></i>

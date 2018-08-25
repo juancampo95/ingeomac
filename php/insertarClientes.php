@@ -13,14 +13,15 @@
 				$ph = mysqli_real_escape_string($this->conexion,$cliente->phone);
 				$cel = mysqli_real_escape_string($this->conexion,$cliente->cellphone);
 				$cor = mysqli_real_escape_string($this->conexion,$cliente->correo);
+				$username = mysqli_real_escape_string($this->conexion,$cliente->username);
 				$ob = mysqli_real_escape_string($this->conexion,$cliente->obra);
 				$obid = mysqli_real_escape_string($this->conexion,$cliente->obra_id);
 				$fechaActual = mysqli_real_escape_string($this->conexion,$cliente->fecha_actual);
 				$btn_name = $cliente->btnName;
 				
 				if($btn_name == "Crear Obra"){
-					$query = "INSERT INTO $tabla (fullname,company,phone,cellphone,email,obra_id,obra,fecha_creacion) 
-					VALUES 	('$ful','$com','$ph','$cel','$cor','$obid','$ob','$fechaActual')";
+					$query = "INSERT INTO $tabla (fullname,company,phone,cellphone,email,username,obra_id,obra,fecha_creacion) 
+					VALUES 	('$ful','$com','$ph','$cel','$cor','$username','$obid','$ob','$fechaActual')";
 					if(mysqli_query($this->conexion,$query)){
 						echo "Data insertada correctamente ->" . uniqid("HHA",TRUE);
 					}else{
@@ -35,6 +36,7 @@
 					phone = '$ph',
 					cellphone = '$cel',
 					email = '$cor',
+					username = '$username',
 					obra_id = '$obid',
 					obra = '$ob',
 					fecha_modificacion = '$fechaActual' WHERE id = '$id'";

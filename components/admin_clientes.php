@@ -28,7 +28,7 @@
           <td  title="{{cliente.company}}">{{cliente.fullname}}</td>
           <td>
             <button data-target="#centralModalSm" data-toggle="modal" class="btn btn-danger btn-sm" 
-            ng-click="actualizarCliente(cliente.id,cliente.fullname,cliente.company,cliente.phone,cliente.cellphone,cliente.email,cliente.obra_id,cliente.obra,cliente.fecha_creacion,cliente.fecha_modificacion)"> <i data-feather="user"></i></button>
+            ng-click="actualizarCliente(cliente.id,cliente.fullname,cliente.company,cliente.phone,cliente.cellphone,cliente.email,cliente.username,cliente.obra_id,cliente.obra,cliente.fecha_creacion,cliente.fecha_modificacion)"> <i data-feather="user"></i></button>
             
           </td>
         </tr>
@@ -106,6 +106,13 @@
                             <i data-feather="mail" class="prefix"></i>
                             <input placeholder=" " type="email" id="correo" class="form-control validate" ng-model="correo">
                             <label data-error="No es válido" data-success="Correcto" for="correo">Correo Electrónico*</label>
+                        </div>                        
+                    </div>
+                    <div class="col-xs-12 col-md-6">                      
+                        <div class="md-form">
+                            <i data-feather="user" class="prefix"></i>
+                            <input placeholder=" " type="text" id="username" class="form-control " ng-model="username">
+                            <label for="username">Nombre de usuario*</label>
                         </div>                        
                     </div>
                 </div>
