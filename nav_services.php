@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="services_app">
 <head>
 	<meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Ingeomac Ltda</title>
-	<meta name="description" content="Somos un laboratorio de concretos mortero y grouting, suelos, pavimentos, mezcla asfáltica, mampostería estructural, ensayos químicos, patología de estructuras, agregados pétreos, tensión y elongación, extracción de núcleos, exclerómetro ubicados en la ciudad de cali, valle del cauca, colombia">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="icon" type="image/png" href="images/favicon.png" />
 	<link rel="stylesheet" href="css/mdb.css">
 	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/services.css">
 	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/functions/services.js"></script>
+
 </head>
 <body>
   <!--Navbar-->
@@ -25,7 +28,7 @@
       <div class="collapse navbar-collapse toggle-lines" id="basicExampleNav">
 				<div class="nav-contact">
 					<h4>Contácto</h4>
-					<a href="tel:+5723733707" target="_blank"><h5>(2) 373 3707</h5></a>
+					<h5>373 3707</h5>
 				</div>
         <a href="javascript:void(0)" class="closebtn" onclick="openNav()"><span class="navbar-toggler-icon"></span></a>
       </div>
@@ -56,14 +59,14 @@
   <script>
 	var slidesNumber = 3;
 	var tamaño = window.innerWidth;
-	var porcentaje = "400px";
+	var porcentaje = "500px";
 	if(tamaño <= 790){
 		porcentaje = "100%";
-	  slidesNumber = 1;
-		document.getElementById("img_mapa").src ="images/MapaProcesosNuevoCel.svg";
+	  // slidesNumber = 1;
+		// document.getElementById("img_mapa").src="images/MapaProcesosNuevoCel.svg";
 	}else{
-		porcentaje = "400px";
-		slidesNumber = 3;
+		porcentaje = "500px";
+		// slidesNumber = 3;
 	}
   function openNav() {
       document.getElementById("myNav").style.width = porcentaje;

@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es" ng-app="login_service">
 <head>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-	<title>Ingeomac Ltda</title>
-	<meta name="description" content="Somos un laboratorio de concretos mortero y grouting, suelos, pavimentos, mezcla asfáltica, mampostería estructural, ensayos químicos, patología de estructuras, agregados pétreos, tensión y elongación, extracción de núcleos, exclerómetro ubicados en la ciudad de cali, valle del cauca, colombia">
-	<link rel="stylesheet" href="css/bootstrap.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>Ingeomac Ltda Login</title>
 	<link rel="icon" type="image/png" href="images/favicon.png" />
+	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/mdb.css">
-	<link rel="stylesheet" href="css/swiper.min.css">
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/services.css">
 	<script src="js/jquery-1.11.3.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-route.js"></script>
+	<script src="js/functions/services_login.js"></script>
+
 </head>
 <body>
   <!--Navbar-->

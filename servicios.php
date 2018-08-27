@@ -1,6 +1,6 @@
 <?php include("nav.php") ?>
 
-<header class="container-fluid header us-header" style="background-image: url('images/Servicios.jpg');">
+<div class="fondo_absolute" style="background-image: url('images/Servicios.jpg');"></div>
   <div class="container callToAction section-rojo flotante margin_servicios">
     <h2>Servicios</h2>
     <div class="row us-inicio img_servicios">
@@ -19,17 +19,16 @@
       </div>
     </div>
   </div>
-</header>
-<div class="white-space-services"></div>
+
 <div class="container info-nosotros margin_info">
   <h2 class="mb-5">Nuestros Servicios</h2>
 </div>
 
 <section class="container-fluid">
   <div class="row">
-    <aside class="col-lg-2 servicios_links">
+    <aside class="col-lg-3 servicios_links">
       <ul>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s1)">Concreto y mortero</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s1)">Concreto, mortero y grouting</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s2)">Mampostería estructural</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s3)">Mezcla Asfáltica</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s4)">Suelos</li></a>
@@ -44,14 +43,14 @@
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s13)">Otros</li></a>
       </ul>
     </aside>
-    <article id="anclaServices" class="col-lg-10 descripcion_article">
+    <article id="anclaServices" class="col-lg-9 descripcion_article">
       <?php include ("servicios_info.php") ?>
     </article>
   </div>
 </section>
 <article class="container-fluid text-center callto">
   <h2>Contáctanos para más información</h2>
-  <a class="btn btn-danger btn-lg" href="#">Envíanos un mail</a>
+  <a class="btn btn-danger btn-lg" href="./contacto.php">Envíanos un mail</a>
 </article>
 <script src="js/servicios.js"></script>
 <?php include("footer.php") ?>
