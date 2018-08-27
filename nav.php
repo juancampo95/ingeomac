@@ -34,11 +34,11 @@
 			<div id="myNav" class="overlayNav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<div class="overlay-content">
-					<a class="navbar-brand logo_menu" href="index.php"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
+					<a class="navbar-brand logo_menu" href="index.php"><img src="images/LogoVectorBlanco.svg" alt="logo"> </a>
 					<div class="redes_menu">
-						<a target="_blank" href="https://www.facebook.com/ingeomac/"><img src="images/rrss/facebookwhite.svg"></a>
-						<a target="_blank" href="https://www.instagram.com/licores85cali/"><img src="images/rrss/instagramwhite.svg"></a>
-						<a target="_blank" href="https://api.whatsapp.com/send?phone=573155275724"><img src="images/rrss/whatsappwhite.svg"></a>
+						<a target="_blank" href="https://www.facebook.com/ingeomac/"><img src="images/rrss/facebooknew.svg"></a>
+						<a target="_blank" href="https://www.instagram.com/licores85cali/"><img src="images/rrss/instagramnew.svg"></a>
+						<a target="_blank" href="https://api.whatsapp.com/send?phone=573155275724"><img src="images/rrss/whatsappnew.svg"></a>
 					</div>
 					<a class="links waves-effect" href="index.php">Inicio</a>
 					<a class="links waves-effect" href="web_services.php">Servicios web</a>
