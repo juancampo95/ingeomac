@@ -131,6 +131,34 @@ app.controller('general_admin', function($scope,$http){
 			method:'GET',
 			url: '../ingeomac/php/mostrarDocs.php'
 		}).then(function successCallback(respuesta){
+			var data = respuesta.data;
+				// Sirve para cultar toda la tabla sino existe ese tipo de documento
+				for (var name in data) {
+				    if (data.hasOwnProperty(name)) {
+				    	var type = data[name].type_doc;
+				    	if(type == "alquiler_e"){$scope.alquiler_e_if = true;}
+				    	else if(type == "adoquines"){$scope.adoquines_if = true;}
+				    	else if(type == "agregados"){$scope.agregados_if = true;}
+				    	else if(type == "analisis_e"){$scope.analisis_e_if = true;}
+				    	else if(type == "agua"){$scope.agua_if = true;}
+				    	else if(type == "baldosas"){$scope.baldosas_if = true;}
+				    	else if(type == "baldosin"){$scope.baldosin_if = true;}
+				    	else if(type == "concreto"){$scope.concreto_if = true;}
+				    	else if(type == "mamposteria"){$scope.mamposteria_if = true;}
+				    	else if(type == "mortero"){$scope.mortero_if = true;}
+				    	else if(type == "mezcla_a"){$scope.mezcla_a_if = true;}
+				    	else if(type == "nucleos"){$scope.nucleos_if = true;}
+				    	else if(type == "suelos"){$scope.suelos_if = true;}
+				    	else if(type == "losetas"){$scope.losetas_if = true;}
+				    	else if(type == "otros"){$scope.otros_if = true;}
+				    }
+				    else {
+				        alert(name);
+				    }
+				}
+
+
+
 			$scope.docs = respuesta.data;
 			console.log(respuesta);
 
@@ -141,31 +169,40 @@ app.controller('general_admin', function($scope,$http){
 
 
 	$scope.crearDoc = function(){
-	 	var form_data = new FormData();
-	 	angular.forEach($scope.files,function(file){
-	 		form_data.append('file',file);
-	 	});
 
-	 	form_data.append('obra_id_docs',$scope.obra_doc);
-	 	form_data.append('type_doc',$scope.type_doc);
+		if($scope.obra_doc == null || $scope.type_doc == null){
+			alert("Ingrese el los datos requeridos");	
+		}else{
+
+			var form_data = new FormData();
+		 	angular.forEach($scope.files,function(file){
+		 		form_data.append('file',file);
+		 	});
+
+		 	form_data.append('obra_id_docs',$scope.obra_doc);
+		 	form_data.append('type_doc',$scope.type_doc);
+		 	
+		 	$http({
+		 		method : 'POST',
+		 		url : '../ingeomac/php/insertarDocs.php',
+		 		data : form_data,
+		 		transformRequest : angular.identity,
+		 		headers:{
+		 			'Content-Type' : undefined,
+		 			'Process-Data' : false
+		 		}
+		 	}).then(function successCallback(response){
+		 		console.log("successfully" + response.data);
+		 		$scope.file_input = null;
+		 		$scope.obra_doc = null;
+		 		$scope.type_doc = null;
+		 		$scope.mostrarDocs();
+		 	});
+
+			
+		}
+
 	 	
-	 	$http({
-	 		method : 'POST',
-	 		url : '../ingeomac/php/insertarDocs.php',
-	 		data : form_data,
-	 		transformRequest : angular.identity,
-	 		headers:{
-	 			'Content-Type' : undefined,
-	 			'Process-Data' : false
-	 		}
-	 	}).then(function successCallback(response){
-	 		console.log("successfully" + response.data);
-	 		$scope.file_input = null;
-	 		$scope.obra_doc = null;
-	 		$scope.type_doc = null;
-	 		$scope.mostrarDocs();
-	 	});
-
 	}
 	$scope.eliminarDocs = function(i){
 		

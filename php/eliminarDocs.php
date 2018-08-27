@@ -7,16 +7,25 @@
 
 			$data = json_decode(file_get_contents("php://input"));
 			if(count($data)>0){
-				echo "hola " .  $data->id . " hola" ;
 				$id = $data->id;
-				$query = "DELETE FROM $tabla WHERE id_docs = '$id'";
+				/*aqui selecciono el nombre del documento para eliminarlo*/
+				$fichero = array();
+				$query  = "SELECT name_docs FROM $tabla WHERE id_docs ='$id'";
+				$result = mysqli_query($this->conexion,$query);
+
+				if(mysqli_num_rows($result)>0){
+					$row = mysqli_fetch_array($result);
+					unlink("upload/$row[0]");
+					$query  = "DELETE FROM $tabla WHERE id_docs ='$id'";
+				}else{
+					echo "alert('no funciono')";
+				}
 				if(mysqli_query($this->conexion,$query)){
 					echo "Datos eliminados correctamente";
 				}else{
-
 					echo "No se eliminaron los datos, existe un falló";
 				}
-
+				// $query = "DELETE FROM $tabla WHERE id_docs = '$id'";
 			}
 		}
 	}
