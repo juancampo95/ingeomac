@@ -23,7 +23,7 @@
           <div class="col-md-4 col-xs-12 d-flex flex-column footer_links2">
             <ul>
                 <li><a href="index.php">Inicio</a></li>
-                <li><a href="http://multiractiva.com/wp-etnia/mujeres">Informes</a></li>
+                <li><a href="web_services.php">Informes</a></li>
                 <li><a href="http://multiractiva.com/wp-etnia/mujeres">Datos</a></li>
                 <li><a href="servicios.php">Servicios</a></li>
                 <li><a href="nosotros.php">Nosotros</a></li>

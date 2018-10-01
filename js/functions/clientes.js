@@ -2,7 +2,7 @@ var app = angular.module("ingeo_app",[]);
 
 
 app.controller('general_admin', function($scope,$http){
-
+ 
 
 // SCRIPTS DE CLIENTES
 	$scope.mostrar = {display:"none"}
