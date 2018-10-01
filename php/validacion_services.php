@@ -11,13 +11,13 @@ class Validacion extends conexion{
 	
 	function __construct($tabla){
 		parent::__construct();
-		if(isset($_SESSION["email_service"])){
-			$usuario_login = $_SESSION["email_service"];
+		if(isset($_SESSION["username_service"])){
+			$usuario_login = $_SESSION["username_service"];
 			$pass_login = $_SESSION["passw_service"];
 			
 			
 
-			$sql = "SELECT * FROM $tabla WHERE email = '$usuario_login' and obra_id = '$pass_login'";
+			$sql = "SELECT * FROM $tabla WHERE username = '$usuario_login' and obra_id = '$pass_login'";
 			$result=$this->conexion->query($sql);
 
 			if($result-> num_rows>0){

@@ -26,9 +26,9 @@
 
 <section class="container-fluid">
   <div class="row">
-    <aside class="col-lg-2 servicios_links">
+    <aside class="col-lg-3 servicios_links">
       <ul>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s1)">Concreto y mortero</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s1)">Concreto, mortero y grouting</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s2)">Mampostería estructural</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s3)">Mezcla Asfáltica</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s4)">Suelos</li></a>
@@ -36,21 +36,21 @@
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s6)">Ensayos Químicos</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s7)">Patología de Estructuras</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s8)">Agregados Pétreos</li></a>
-        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s9)">Tensión/Elongación</li></a>
+        <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s9)">Tensión y Elongación</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s10)">Anclajes</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s11)">Extracción de Núcleos</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s12)">Esclerómetro</li></a>
         <a href="#anclaServices"><li class="waves-effect" onclick="mostrar(s13)">Otros</li></a>
       </ul>
     </aside>
-    <article id="anclaServices" class="col-lg-10 descripcion_article">
+    <article id="anclaServices" class="col-lg-9 descripcion_article">
       <?php include ("servicios_info.php") ?>
     </article>
   </div>
 </section>
 <article class="container-fluid text-center callto">
   <h2>Contáctanos para más información</h2>
-  <a class="btn btn-danger btn-lg" href="#">Envíanos un mail</a>
+  <a class="btn btn-danger btn-lg" href="./contacto.php">Envíanos un mail</a>
 </article>
 <script src="js/servicios.js"></script>
 <?php include("footer.php") ?>

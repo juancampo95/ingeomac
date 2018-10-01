@@ -28,7 +28,7 @@
       <div class="collapse navbar-collapse toggle-lines" id="basicExampleNav">
 				<div class="nav-contact">
 					<h4>Contácto</h4>
-					<h5>373 3707</h5>
+					<a href="tel:+5723733707" target="_blank"><h5>(2) 373 3707</h5></a>
 				</div>
         <a href="javascript:void(0)" class="closebtn" onclick="openNav()"><span class="navbar-toggler-icon"></span></a>
       </div>

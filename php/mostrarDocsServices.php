@@ -7,7 +7,7 @@
 		public function __construct($tabla){
 			parent::__construct();
 
-			if(isset($_SESSION["email_service"])){
+			if(isset($_SESSION["username_service"])){
 				$obra = $_SESSION['passw_service'];
 				$sale = array();
 				$query  = "SELECT * FROM $tabla WHERE obra_id_docs ='$obra'";

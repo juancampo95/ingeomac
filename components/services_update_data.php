@@ -49,7 +49,14 @@
           <div class="md-form">
             <i data-feather="mail" class="prefix"></i>
             <input placeholder=" " type="email" id="correo" class="form-control validate" ng-model="correo">
-            <label data-error="No es válido" data-success="Correcto" for="correo">Correo Electrónico*</label>
+            <label data-error="No es válido" data-success="Correcto" for="correo">Correo Electrónico</label>
+          </div>                        
+        </div>
+        <div class="col-xs-12 col-md-6">                      
+          <div class="md-form">
+            <i data-feather="user" class="prefix"></i>
+            <input placeholder=" " type="text" id="username" class="form-control" ng-model="username">
+            <label  for="username">Nombre de usuario</label>
           </div>                        
         </div>
       </div>

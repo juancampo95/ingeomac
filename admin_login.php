@@ -62,8 +62,8 @@
 	            <div class="col-4 text-md-right text-xs-center mt-4 " style="font-size: 14px;">
 	            </div>	            
 	            <div class="col-4  mt-4 login_logos_center" style="font-size: 14px;">
-	                <img width="200" src="images/LogoVeritasColor.jpg" alt="">
-	                <img width="130" src="images/LogoIngeomac1.jpg" alt="">
+	                <img width="130" src="images/logo_ingeomac2.png" alt="logo ingeomac">
+	                <img width="200" src="images/LogoVeritasColor.jpg" alt="logo beauveritas">
 	            </div>	            
 	            <div class="col-4 text-md-right text-xs-center mt-4 " style="font-size: 14px;">
 	                <p>Desarrollo y Diseño web 2018 Multiractiva Agencia de Diseño Digital<br>Contacto: ceo@multiractiva.com </p>

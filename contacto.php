@@ -6,45 +6,70 @@
     <div class="row us-inicio">
       <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
-        <form class="pd-form">
+        <form class="pd-form" action="#" method="post">
           <!-- Material input text -->
           <div class="md-form">
               <i class="fa fa-user prefix grey-text"></i>
-              <input type="text" id="materialFormContactNameEx" class="form-control">
+              <input name="name" type="text" id="materialFormContactNameEx" class="form-control">
               <label for="materialFormContactNameEx">Nombre</label>
           </div>
 
           <!-- Material input email -->
           <div class="md-form">
               <i class="fa fa-envelope prefix grey-text"></i>
-              <input type="email" id="materialFormContactEmailEx" class="form-control">
+              <input name="mail" type="email" id="materialFormContactEmailEx" class="form-control">
               <label for="materialFormContactEmailEx">E-Mail</label>
           </div>
 
           <!-- Material input subject -->
           <div class="md-form">
               <i class="fa fa-tag prefix grey-text"></i>
-              <input type="text" id="materialFormContactSubjectEx" class="form-control">
+              <input name="phone" type="text" id="materialFormContactSubjectEx" class="form-control">
               <label for="materialFormContactSubjectEx">Teléfono</label>
           </div>
 
           <!-- Material textarea message -->
           <div class="md-form">
               <i class="fa fa-pencil prefix grey-text"></i>
-              <textarea type="text" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3"></textarea>
+              <textarea name="mensaje" type="text" id="materialFormContactMessageEx" class="form-control md-textarea" rows="3"></textarea>
               <label for="materialFormContactMessageEx">Comentarios</label>
           </div>
 
           <div class="text-center mt-4">
-              <a class="btn btn-danger btn-lg" href="#">Enviar</a>
+              <input class="btn btn-danger btn-lg" value="Enviar" type="submit">
           </div>
         </form>
       </div>
     </div>
   </div>
+<?php 
+
+  if($_POST){
+
+    $titulo = "Mensaje desde sitio web";
+    $mensaje = "<h3>$titulo</h3>". "\r\n" .
+    "Nombre: " . $_POST['name'] . "\r\n" .
+    "Teléfono: " . $_POST['phone'] . "\r\n" .
+    "email: " . $_POST['mail'] . 
+    "mensaje " . "\r\n" .
+    $_POST['mensaje'];
+    $from = "From: " . $_POST['mail'];
+    
+    mail('juandesigner95@gmail.com',$titulo,$mensaje,$from);
+    echo "<h2>El mensaje ha sido enviado con éxito</h2>";
+  }
+
+
+?>
+
+
+
+
+
+
 <div class="container-fluid section-rojo">
   <div class="container section-rojo info-contacto">
-    <h2>Datos de Contacto</h2><br>
+    <h2>Datos de Contácto</h2><br>
     <p class="text-center">En INGEOMAC LTDA estamos comprometidos con la prestación de un servicio de calidad, es por eso que estamos siempre atentos a cualquier tipo de comunicación que nuestros clientes quieran tener con nosotros, debido a eso tenemos distintos canales y medios por los cuales nos podemos  comunicar.</p>
   </div>
   <article class="container callToAction section-rojo ">
@@ -69,9 +94,6 @@
     </div>
   </article>
 </div>
-
-
-
 
 
 

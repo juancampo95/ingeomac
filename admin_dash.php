@@ -11,8 +11,8 @@
 		<nav class="col-md-3 col-lg-2 d-none d-md-block bg-dark sidebar-admin">
 			<div class="sidebar-sticky z-depth-4">
 				<div class="logos_admin">
-					<a class="navbar-brand" href="#"><img src="images/LogoIngeomac1.jpg" alt="logo"> </a>
-					<a class="navbar-brand" href="#"><img src="images/LogoVeritas.svg" alt="logo"> </a>
+					<a class="navbar-brand" href="#"><img src="images/logo_ingeomac_w.png" alt="logo ingeomac"> </a>
+					<a class="navbar-brand" href="#"><img src="images/LogoVeritas.svg" alt="logo veritas"> </a>
 				</div>
 				<hr>
 				<ul ng-init="tab=1" class="nav flex-column">
@@ -21,13 +21,18 @@
 				</ul>
 			</div>
 		</nav>
-		<main  role="main" class="col-md-9 col-lg-10 ml-sm-auto  px-4">
+		<main  role="main" class="col-md-9 col-lg-10 ml-sm-auto px-4">
 <!-- CIERRE DIV DE ENCABEZADO -->
+				<div class="d-none" ng-class="display">
 				<?php include("components/admin_clientes.php") ?>
 				<?php include("components/admin_docs.php") ?>
+				</div>
+
 
         </main>
-		
+		<div class="col-md-9 col-lg-10 ml-sm-auto px-4" style="height: 400px; display: flex; justify-content: center; align-items: center;"  ng-class="loading">
+			<h1>CARGANDO DATOS...</h1>
+		</div>
         
         <main  role="main" class="col-md-12 col-lg-10 ml-sm-auto  px-4" > 
 	        <div class="row">
