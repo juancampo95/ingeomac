@@ -34,7 +34,7 @@
 			<div id="myNav" class="overlayNav">
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<div class="overlay-content">
-					<a class="navbar-brand logo_menu" href="index.php"><img src="images/LogoVectorBlanco.svg" alt="logo"> </a>
+					<a class="navbar-brand logo_menu" href="index.php"><img src="images/logo_ingeomac_w.png" alt="logo"> </a>
 					<div class="redes_menu">
 						<a target="_blank" href="https://www.facebook.com/ingeomac/"><img src="images/rrss/facebooknew.svg"></a>
 						<a target="_blank" href="https://www.instagram.com/licores85cali/"><img src="images/rrss/instagramnew.svg"></a>

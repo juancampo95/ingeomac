@@ -16,7 +16,7 @@
             </ul>
            </div>
           <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer text-center">
-            <img src="images/LogoVectorBlanco.svg">
+            <img src="images/logo_ingeomac_w.png">
             <img src="images/LogoVeritas.svg">
             <p>Todos los derechos reservados ®copyright 2018 INGEOMAC LTDA. </p>
           </div>

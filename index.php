@@ -17,7 +17,7 @@
 	</section>
 	<section class="container-fluid section-rojo">
 		<article class="container callToAction ">
-			<h2>Conoce sobre nosotros	</h2>
+			<h2>Conoce sobre nosotros</h2>
 			<div class="row p-container">
 				<div class=" col-xs-12 col-sm-12 col-md-4 parrafos">
 					<p>Contamos con más de 17 años de experiencia en el mercado.</p>

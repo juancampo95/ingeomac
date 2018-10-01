@@ -3,8 +3,8 @@ var app = angular.module("services_app",[]);
 app.controller('servicios', function($scope,$http){
 
 
-	
-		$scope.display = "d-none";
+		
+	$scope.display = "d-none";
 	$scope.mostrarDocs = function(obra){
 
 		$scope.display = "d-block";

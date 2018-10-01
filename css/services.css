@@ -68,6 +68,7 @@
 .left{
 	text-align: left!important;
 }
+
 @media(max-width:768px){
 	.obra_gone{
 		display: none;

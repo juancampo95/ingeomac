@@ -8,6 +8,8 @@ app.controller('general_admin', function($scope,$http){
 	$scope.mostrar = {display:"none"}
 	$scope.DeleteIcon = {display:"flex"}
 	$scope.btnName= "Crear Obra";
+	$scope.display = "d-none";
+	// $scope.loading = "d-block";
 	
 	$scope.btnToCrear = function(){
 		$scope.obra_id = null;
@@ -74,16 +76,21 @@ app.controller('general_admin', function($scope,$http){
 		}
 	}
 	$scope.mostrarClientes = function(){
-		$http({
-			method:'GET',
-			url: '../ingeomac/php/mostrarClientes.php'
-		}).then(function successCallback(response){
-			$scope.clientes = response.data;
-			console.log(response.data);
+		
+			$http({
+				method:'GET',
+				url: '../ingeomac/php/mostrarClientes.php'
+			}).then(function successCallback(response){
+				$scope.clientes = response.data;
+				console.log(response.data);
 
-		}, function errorCallback(response){
-			console.log("failed" + response);
-		});
+			}, function errorCallback(response){
+				console.log("failed" + response);
+			});
+			$scope.loading = "d-none";
+			$scope.display = "d-block";
+		
+
 	}
 	$scope.actualizarCliente = function(id,fullname,company,phone,cellphone,email,username,obra_id,obra,fecha_creacion,fecha_modificacion){
 		$scope.id = id;

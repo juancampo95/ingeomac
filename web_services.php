@@ -23,8 +23,10 @@
 		<button ng-class="{tabActive:tab===2}"  ng-click="tab = 2" class="btn btn-danger">Actualización de datos</button>
 	</section>
 	<div ng-controller="servicios" ng-init="mostrarDocs(<?php echo utf8_encode($sesion_service->obra_id);?>)" class="body-modal-services">
-		<?php include("components/services_docs.php") ?>
-		<?php include("components/services_update_data.php") ?>
+		<div class="d-none" ng-class="display">
+			<?php include("components/services_docs.php") ?>
+			<?php include("components/services_update_data.php") ?>
+		</div>
 	</div>
 </div>
 

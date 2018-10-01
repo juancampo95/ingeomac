@@ -213,6 +213,11 @@ header.header h1{
 .callToAction div{
 	text-align: center;
 }
+@keyframes opacidad{
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
 .callToAction a.img-after{
 	overflow: visible;
 	margin: 3em 1em 1em 1em;
@@ -225,6 +230,11 @@ a.img-after::after{
 	height: 150px;
 	background-position: center;
 	background-size: cover;
+  opacity: 1;
+  animation-name: opacidad;
+  transition: all linear 1s;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 a.img-after:first-child::after{
 	top: -114px;
@@ -740,3 +750,10 @@ footer ul{
   top: 111px;
   left: 0;
 }
+.d-none{
+  display: none;
+  transition: all linear 0.4s;
+}
+/* .d-block{
+  display: block;
+} */

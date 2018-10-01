@@ -1,4 +1,4 @@
-<div ng-show="tab === 1" ng-class="display">
+<div ng-show="tab === 1" >
   <div class="searching-space">
   	<input class="form-control" type="text" placeholder="Busca por fecha formato: AAAA-MM-DD" ng-model="searchObra.create_date_docs">
   </div>
