@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>Ingeomac Ltda</title>
 	<meta name="description" content="Somos un laboratorio de concretos mortero y grouting, suelos, pavimentos, mezcla asfáltica, mampostería estructural, ensayos químicos, patología de estructuras, agregados pétreos, tensión y elongación, extracción de núcleos, exclerómetro ubicados en la ciudad de cali, valle del cauca, colombia">
 	<link rel="stylesheet" href="css/bootstrap.css">

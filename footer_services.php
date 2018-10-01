@@ -1,5 +1,3 @@
-
-
 <footer class="container-fluid pie_d_page section-rojo">
       <div class="row">
           <div class="col-md-4 col-xs-12 d-flex flex-column footer_links1">
@@ -13,18 +11,17 @@
             </ul>
            </div>
           <div class="col-md-4 col-xs-12 d-flex justify-content-center logo_etnia_footer text-center">
-            <img src="images/LogoIngeomac1.jpg">
+            <img src="images/logo_ingeomac_w.png">
             <img src="images/LogoVeritas.svg">
             <p>Todos los derechos reservados ®copyright 2018 INGEOMAC LTDA. </p>
           </div>
           <div class="col-md-4 col-xs-12 d-flex flex-column footer_links2">
             <ul>
-                <li><a href="index.php">Inicio</a></li>
-                <li><a href="http://multiractiva.com/wp-etnia/mujeres">Informes</a></li>
-                <li><a href="http://multiractiva.com/wp-etnia/mujeres">Datos</a></li>
-                <li><a href="servicios.php">Servicios</a></li>
-                <li><a href="nosotros.php">Nosotros</a></li>
-                <li><a href="contacto.php">Contácto</a></li>
+                <li><a href="./index.php">Inicio</a></li>
+                <li><a href="./web_services.php">Servicios web</a></li>
+                <li><a href="./servicios.php">Servicios</a></li>
+                <li><a href="./nosotros.php">Nosotros</a></li>
+                <li><a href="./contacto.php">Contácto</a></li>
             </ul>
             </div>
       </div>
@@ -34,7 +31,6 @@
   <p>Desarrollo y Diseño web 2018 por</p>
   <img width="200" src="images/multir-blanco-02.svg" alt="">
 </div>
-
 </body>
 </html>
 
