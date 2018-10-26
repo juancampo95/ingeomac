@@ -2,9 +2,8 @@ var app = angular.module("services_app",[]);
 
 app.controller('servicios', function($scope,$http){
 
-
-		
 	$scope.display = "d-none";
+
 	$scope.mostrarDocs = function(obra){
 
 		$scope.display = "d-block";
@@ -43,6 +42,9 @@ app.controller('servicios', function($scope,$http){
 		}, function errorCallback(respuesta){
 			console.log("failed" + respuesta);
 		});
+		
+		$scope.loading = "d-none";
+		$scope.display = "d-block";	
 	}
 
 	$scope.mostrar_S_Datos = function(){
@@ -62,12 +64,12 @@ app.controller('servicios', function($scope,$http){
 			$scope.cellphone = parseInt($scope.dCliente.cellphone);
 			$scope.correo = $scope.dCliente.email;
 			$scope.username = $scope.dCliente.username;
-
-			
+		
 
 		}, function errorCallback(respuesta){
 			console.log("failed" + respuesta);
 		});
+		
 	}
 
 	$scope.actualizarDatos = function(){

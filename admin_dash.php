@@ -30,7 +30,7 @@
 
 
         </main>
-		<div class="col-md-9 col-lg-10 ml-sm-auto px-4" style="height: 400px; display: flex; justify-content: center; align-items: center;"  ng-class="loading">
+		<div class="col-md-9 col-lg-10 ml-sm-auto px-4" style="height: 100vh; display: flex; justify-content: center; align-items: center;"  ng-class="loading">
 			<h1>CARGANDO DATOS...</h1>
 		</div>
         

@@ -9,11 +9,12 @@
 		<article class="container callToAction botones">
 			<h2>Servicios Web</h2>
 			<p>Aquí en Ingeomac LTDA siempre pensamos en nuestros clientes y como mejorar la atención y los servicios ofrecidos. Es por esta razón que renovamos nuestro sitio web y aprovechamos la nuevas tecnologías para hacerla dinámica y funcional. Brindando dos la consulta de informes de manera online y la actualización de los datos personales para facilitar el contácto.</p>
-			<div>
+			<div id="botones_webservices" >
 				<a class="btn btn-danger btn-lg img-after" href="./web_services.php">Consultar Informes</a>
 				<a class="btn btn-grey btn-lg img-after" href="./web_services.php">Actualizar Datos</a>
 			</div>
 		</article>
+
 	</section>
 	<section class="container-fluid section-rojo">
 		<article class="container callToAction ">

@@ -27,6 +27,10 @@
 			<?php include("components/services_docs.php") ?>
 			<?php include("components/services_update_data.php") ?>
 		</div>
+
+		<div class="col-md-12" style="height: 400px; display: flex; justify-content: center; align-items: center;" ng-class="loading">
+			<h1>CARGANDO DATOS...</h1>
+		</div>
 	</div>
 </div>
 

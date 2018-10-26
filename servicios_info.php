@@ -173,13 +173,40 @@ Tomado de la norma NTC 673</p>
 
 <div id="s4" class="info_container">
 <h1>Suelos</h1>
-<p>Un estudio de suelos es un conjunto de actividades que nos permite determinar las propiedades de un determinado terreno y es fundamental en la planeación, diseño y realización de un proyecto de obra civil</p>
-<p>El estudio de suelo nos permite determinar las propiedades tanto físicas como geológicas del suelo, comenzando con la secuencia litológica, las diferentes capas y su espesor,  asimismo la profundidad del nivel del agua subterránea, la capacidad de resistencia de un suelo o una roca. También nos permite conocer el tipo de cimentación más adecuado para el tipo de obra a construir, así como los establecimientos de la estructura en relación al peso que va a soportar.</p>
-<p>“El estudio geotécnico se realiza previamente al proyecto de un edificio y tiene por objeto determinar la naturaleza y propiedades del terreno, necesarios para definir el tipo y condiciones de cimentación” <span class="negrita">(Rodríguez Ortiz y otros, 1984).</span></p>
+<p>Los ensayos geotécnicos de laboratorio son pruebas realizadas para la determinación de las características geotécnicas de un terreno. Estos ensayos se ejecutan sobre las muestras previamente obtenidas en el lugar del terreno y, dependiendo del tipo de ensayo, se exigen distintas calidades de muestra.</p>
+<p>Para la determinación de las propiedades del suelo, los ensayos se clasifican en:</p>
+<ul>
+  <li><strong>Ensayos de identificación:</strong> son los únicos (junto con los de compactación) que pueden realizarse sobre muestras alteradas. Pueden ser:
+    <ul>
+      <li>Físicos: granulometría, plasticidad o peso específico de partículas.</li>
+      <li>Químicos: contenido en sulfatos, carbonatos o materia orgánica.</li>
+    </ul>
+  </li>
+  <li>
+    Ensayos de estado: humedad natural, peso específico seco o aparente. Proporcionan la situación del terreno en su estado natural. Como excepción, pueden utilizarse muestras alteradas para la obtención de la humedad natural, siempre que se protejan de pérdidas posteriores de humedad nada más proceder a su obtención.
+  </li>
+  <li>
+    Ensayos de permeabilidad: en permeámetros de carga constante, de carga variable o en célula triaxial.
+  </li>
+  <li>
+    Ensayos de cambio de volumen: compresibilidad edométrica, expansividad (presión de hinchamiento, hinchamiento libre, índice de Lambe) y colapso.
+  </li>
+  <li>
+    Otros ensayos sobre suelos o rocas:<br>
+    <ul>
+      <li>Compactación Próctor.</li>
+      <li>Índice de dispersividad Pin-Hole (sobre muestra alterada).</li>
+      <li>Ensayos sobre rocas: compresión simple (con o sin galgas extensométricas), carga puntual (Point Load), corte directo de diaclasas, índice de durabilidad Slake, compresión triaxial.</li>
+    </ul>
+  </li>
+  <li>
+    Ensayos químicos sobre agua freática: obtención de pH, de contenido en sales solubles o de elementos contaminantes.
+  </li>
+</ul>
+
 <div class="row div_img_container">
-  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/Suelos1.png'); background-size:cover;"></div>
-  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/Suelos2.jpg'); background-size:cover;"></div>
-  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/suelos.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/290.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/291.jpg'); background-size:cover;"></div>
 </div>
 <h2 class="titulo_tabla">Servicios que ofrecemos en suelos</h2>
 <table class="table table-condensed">
@@ -221,6 +248,19 @@ Tomado de la norma NTC 673</p>
     </tr>
   </tbody>
 </table>
+</div>
+
+<!-- Estudio de suelos -->
+<div id="s5" class="info_container">
+<h1>Estudio de Suelos</h1>
+<p>Un estudio de suelos es un conjunto de actividades que nos permite determinar las propiedades de un determinado terreno y es fundamental en la planeación, diseño y realización de un proyecto de obra civil </p>
+<p>El estudio de suelo nos permite determinar las propiedades tanto físicas como geológicas del suelo, comenzando con la secuencia litológica, las diferentes capas y su espesor,  asimismo la profundidad del nivel del agua subterránea, la capacidad de resistencia de un suelo o una roca. También nos permite conocer el tipo de cimentación más adecuado para el tipo de obra a construir, así como los establecimientos de la estructura en relación al peso que va a soportar.</p>
+<p>“El estudio geotécnico se realiza previamente al proyecto de un edificio y tiene por objeto determinar la naturaleza y propiedades del terreno, necesarios para definir el tipo y condiciones de cimentación” <span class="negrita">(Rodríguez Ortiz y otros, 1984).</span></p>
+<div class="row div_img_container">
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/Suelos1.png'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/Suelos2.jpg'); background-size:cover;"></div>
+  <div class="imagenes_divs z-depth-1-half zoom waves-effect waves-light" style="background-image:url('images/productos/suelos.jpg'); background-size:cover;"></div>
+</div>
 </div>
 
 <!-- Ensayos Quimicos -->
