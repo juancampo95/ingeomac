@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 08, 2018 at 05:16 PM
+-- Generation Time: Oct 26, 2018 at 04:13 PM
 -- Server version: 10.1.28-MariaDB
 -- PHP Version: 7.1.11
 
@@ -35,6 +35,7 @@ CREATE TABLE `clients` (
   `phone` bigint(13) NOT NULL,
   `cellphone` bigint(13) NOT NULL,
   `email` varchar(60) COLLATE utf8_spanish_ci NOT NULL,
+  `username` varchar(60) COLLATE utf8_spanish_ci NOT NULL,
   `obra_id` int(20) NOT NULL,
   `obra` varchar(60) COLLATE utf8_spanish_ci NOT NULL,
   `fecha_creacion` varchar(40) COLLATE utf8_spanish_ci NOT NULL,
@@ -45,11 +46,11 @@ CREATE TABLE `clients` (
 -- Dumping data for table `clients`
 --
 
-INSERT INTO `clients` (`id`, `fullname`, `company`, `phone`, `cellphone`, `email`, `obra_id`, `obra`, `fecha_creacion`, `fecha_modificacion`) VALUES
-(7, 'Oscar Cardona', 'Jaramillo Mora', 5879685, 3175503136, 'ceo@multiractiva.net', 8855, 'ClÃ­nica de los remedios', '2018-08-04T01:21:37.537Z', '2018-08-04T18:21:53.619Z'),
-(9, 'Roberto Carlos Campo', 'Jaramillo Mora', 3158596, 3175505586, 'manuel@jaramillomora.com', 8836, 'Casa Campo', '2018-08-04T01:24:49.537Z', '2018-08-04T18:23:09.428Z'),
-(12, 'Manuel Sanchez', 'Jaramillo Mora', 325845, 3175503136, 'manuel@jaramillomora.com', 8975, 'ClÃ­nica de los remedios', '2018-08-04T18:20:57.500Z', ''),
-(14, 'Juan Palmolive', 'Melendez', 355858, 3175685548, 'juan@palmolive.com', 9753, 'Edificio Palmolive', '2018-08-05T00:53:19.739Z', '2018-08-05T01:54:31.064Z');
+INSERT INTO `clients` (`id`, `fullname`, `company`, `phone`, `cellphone`, `email`, `username`, `obra_id`, `obra`, `fecha_creacion`, `fecha_modificacion`) VALUES
+(7, 'Daniela Salazar', 'Jaramillo Mora', 5879685, 3175503136, 'daniela@multiractiva.com.co', 'juan2019', 8855, 'ClÃ­nica de los remedios', '2018-08-04T01:21:37.537Z', '2018-10-11T01:49:04.359Z'),
+(14, 'Juan Palmolive', 'Melendez', 355658, 3175666548, 'juan@palmolive.com', '', 9753, 'Edificio Palmolive', '2018-08-05T00:53:19.739Z', '2018-08-17T03:16:46.526Z'),
+(16, 'Alejandro Carrera', 'Jaramillo Mora', 3968589, 300485968, 'alejo@mora.com', 'alejo2018', 6666, 'Torre blanca maestra', '2018-08-23T13:48:41.855Z', '2018-08-24T14:26:31.591Z'),
+(17, 'Roberto', 'Melendez', 55555555, 3175503136, 'ceo@multiractiva.com', 'roberto36', 258, 'Proyect Juan', '2018-10-11T01:50:52.518Z', '2018-10-11T01:51:09.399Z');
 
 -- --------------------------------------------------------
 
@@ -71,15 +72,29 @@ CREATE TABLE `reportes` (
 --
 
 INSERT INTO `reportes` (`id_docs`, `obra_id_docs`, `name_docs`, `create_date_docs`, `formato_docs`, `type_doc`) VALUES
-(27, 8578, 'densidades_9892.docx', '2018-08-07T23:19:05+02:00', 'word.svg', 'densidades'),
-(28, 8596, 'reneault.xlsx', '2018-08-07T23:31:23+02:00', 'excel.svg', 'proctor_mod'),
-(29, 8456, 'hondadream.docx', '2018-08-08T00:17:15+02:00', 'word.svg', 'granulometrias'),
-(30, 8457, 'tarjeta-nayibe.pdf', '2018-08-08T00:17:47+02:00', 'pdf.svg', 'e_compresion'),
-(31, 9687, 'TARIFAS_MINIMAS_SUGERIDAS_ADGORA_2015.xls', '2018-08-08T00:47:16+02:00', 'excel.svg', 'proctor_mod'),
-(32, 5846, 'densidades_98912.docx', '2018-08-08T01:04:07+02:00', 'word.svg', 'densidades'),
-(33, 8578, 'proctor.docx', '2018-08-08T01:16:41+02:00', 'word.svg', 'proctor_mod'),
-(34, 8578, 'PIXNIO-206725.jpg', '2018-08-08T01:20:00+02:00', 'archivo.svg', 'densidades'),
-(35, 9685, 'densidades 45896.docx', '2018-08-08T16:18:35+02:00', 'word.svg', 'densidades');
+(55, 8855, 'alquiler.docx', '2018-08-26T02:41:30+02:00', 'word.svg', 'alquiler_e'),
+(56, 8855, 'FORMATO DE CUENTA.docx', '2018-10-11T03:51:48+02:00', 'word.svg', 'alquiler_e');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(20) NOT NULL,
+  `empleado` varchar(60) COLLATE utf8_spanish_ci NOT NULL,
+  `username` varchar(60) COLLATE utf8_spanish_ci NOT NULL,
+  `contrasena` varchar(60) COLLATE utf8_spanish_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_spanish_ci;
+
+--
+-- Dumping data for table `users`
+--
+
+INSERT INTO `users` (`id`, `empleado`, `username`, `contrasena`) VALUES
+(1, 'Juan Camilo Campo', 'JuanCampo95', 'camilocampo'),
+(2, 'Maicol Garzón', 'maicol_ingeomac', '123456');
 
 --
 -- Indexes for dumped tables
@@ -98,6 +113,12 @@ ALTER TABLE `reportes`
   ADD PRIMARY KEY (`id_docs`);
 
 --
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -105,13 +126,19 @@ ALTER TABLE `reportes`
 -- AUTO_INCREMENT for table `clients`
 --
 ALTER TABLE `clients`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 
 --
 -- AUTO_INCREMENT for table `reportes`
 --
 ALTER TABLE `reportes`
-  MODIFY `id_docs` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=36;
+  MODIFY `id_docs` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=57;
+
+--
+-- AUTO_INCREMENT for table `users`
+--
+ALTER TABLE `users`
+  MODIFY `id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
